@@ -1,0 +1,132 @@
+id: 80f83625-eee6-4d76-8231-38ba4a12646b
+name: BFM_SALESTRANSACTION
+description: Generated Model Object from BLACKFORESTMARKETS.SALESTRANSACTION
+modelObjectTypeId: 5a74b513-9166-4fd4-96c4-4062356fc4a4
+terms:
+  - id: ef29aaef-39df-41f0-9c39-ff497cff48b0
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+  - id: bf3b887e-5a28-4289-88ac-fb4e4fa76ac5
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+  - id: b6907615-1a0a-4360-aab0-5ed1029df222
+    name: POS_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 6dbdead6-c8e5-4636-8d1d-b9fb304529fd
+    name: ITEM_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+    isBusinessKey: true
+  - id: 1cda1b28-67c6-4795-847c-2af591c84e79
+    name: DESCRIPTION
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: da1e7acc-ec9f-4eb7-8a65-c9711c807979
+    name: UOM
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: e139b899-2e5e-48fd-a51b-806e3817073c
+    name: TRANSACTION_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 71ba3b56-3541-458e-b947-33bb6d1605f1
+    name: TRANSACTION_LINE_NO
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 837fe1a7-2465-4bd5-aebd-442974bc355b
+    name: TRANSACTION_TIME
+    dataType:
+      platformDataTypeId: f136e1f5-12f2-451f-ad33-06fd581e5c41
+  - id: 58f8d1cd-1028-49dd-a9b6-3a87d8ea2cd5
+    name: CASHIER_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 4d3faaf6-e38f-4b84-bfa9-0011ce7c343f
+    name: LOYALTYCARD_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 6c896387-1ed1-414d-ae17-d4b65b376673
+    name: SALES_PRICE
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: 2c4ec9cb-b7ac-487b-afd3-abea2de6b5c7
+    name: REDUCTION
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: 2695426e-9696-4967-99da-098941137b62
+    name: QUANTITY
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: 1a9e3ea6-aff1-4b23-9dba-cade790c554c
+    name: SALES_AMOUNT
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+dataflows:
+  - id: c9be377e-c2bd-4189-aa17-7dc34a876219
+    name: Dataflow1
+    dataflowSets:
+      - id: f9476eb5-5b73-438e-8b22-e22a46801a23
+        name: Set1
+        termMappings:
+          - termId: ef29aaef-39df-41f0-9c39-ff497cff48b0
+          - termId: bf3b887e-5a28-4289-88ac-fb4e4fa76ac5
+          - termId: b6907615-1a0a-4360-aab0-5ed1029df222
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.f681ac03-28a4-4699-a44b-6abac922a9a9
+          - termId: 6dbdead6-c8e5-4636-8d1d-b9fb304529fd
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.330c29e7-1207-433d-b181-8b14ceb0e7f9
+          - termId: 1cda1b28-67c6-4795-847c-2af591c84e79
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.0e5840b6-46f1-444e-be69-8643045837cd
+          - termId: da1e7acc-ec9f-4eb7-8a65-c9711c807979
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.b5e0698c-7eca-4485-8a5c-b11edc956835
+          - termId: e139b899-2e5e-48fd-a51b-806e3817073c
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.38f5b141-c40b-4581-ac2f-02fa299a251d
+          - termId: 71ba3b56-3541-458e-b947-33bb6d1605f1
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.7fdf5423-b0c6-4a73-ba19-ade0323ef15e
+          - termId: 837fe1a7-2465-4bd5-aebd-442974bc355b
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.a8dfb911-18c4-4028-860c-f52cdc2d0eaf
+          - termId: 58f8d1cd-1028-49dd-a9b6-3a87d8ea2cd5
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.254d3126-12e4-4852-a582-9d8cf82d78a6
+          - termId: 4d3faaf6-e38f-4b84-bfa9-0011ce7c343f
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.c9c3abdb-fb7c-468c-9123-5e383dc345e5
+          - termId: 6c896387-1ed1-414d-ae17-d4b65b376673
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.69b8b781-dbbf-4365-8247-5fe64f84b535
+          - termId: 2c4ec9cb-b7ac-487b-afd3-abea2de6b5c7
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.1026ff6a-052b-4322-8930-c2e7f6025138
+          - termId: 2695426e-9696-4967-99da-098941137b62
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.d01964bd-305e-43f8-b260-8115e8549f59
+          - termId: 1a9e3ea6-aff1-4b23-9dba-cade790c554c
+            expression: >-
+              d83e5fad-5643-4031-b4b1-67bb5fe96c0c.14d4281a-0eee-46d0-b987-04929b87dded
+        dataflowModelObjects:
+          - id: d83e5fad-5643-4031-b4b1-67bb5fe96c0c
+            sourceModelObjectId: 57eb7cd3-ee0d-4721-b9d8-497543dbb82d
+            alias: s1
+tags:
+  - $view#id#c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7

@@ -1,0 +1,84 @@
+id: b60ad160-66dc-4067-bc22-7193178cc711
+name: BLACKFORESTMARKETS.EMPLOYEE
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: a6894d69-7f24-4af3-855b-369746e267ae
+    name: EMPLOYEE_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: c8f5d4cf-5582-452e-a60c-381df2048f2f
+    name: JOBFUNCTION_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 9c40f9cb-d05c-4f52-9f9d-d6bbef4a0b76
+    name: BRANCH_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 393a577a-cd2e-40a2-95aa-2d9a2cdd8314
+    name: DEPARTMENT_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 4e662850-b192-47a5-ab49-2ee78dd24866
+    name: IS_ACTIVE_RECORD
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 04b9f245-2ca0-4977-8204-57b652de2208
+    name: LAST_NAME
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: abc1c3d7-16a6-443c-acc3-d33524739296
+    name: FIRST_NAME
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: fa06c9c2-ca50-4057-beee-90f5056c58df
+    name: BIRTH_DATE
+    dataType:
+      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+  - id: e663b029-4962-4d07-b139-e75d09df1b64
+    name: FIRST_HIRE_DATE
+    dataType:
+      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+  - id: ee9462bd-76bb-4ebc-89eb-f4b70b29a257
+    name: HIRE_START_DATE
+    dataType:
+      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+  - id: b44cad2c-12d2-4b0c-a614-cbfc869e5bd0
+    name: HIRE_END_DATE
+    dataType:
+      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+  - id: 0fe109f5-133e-4a58-9590-29f7b51d61af
+    name: INSERT_DATE
+    dataType:
+      platformDataTypeId: f136e1f5-12f2-451f-ad33-06fd581e5c41
+  - id: 3944c21e-7ec2-4ed1-b492-1a2984615787
+    name: UPDATE_DATE
+    dataType:
+      platformDataTypeId: f136e1f5-12f2-451f-ad33-06fd581e5c41
+  - id: fa311847-2622-4af9-9b87-c1f194019c3f
+    name: ADDRESS_LINE1
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: faf41131-5659-47a6-bc70-6162b9a55bb4
+    name: ADDRESS_LINE2
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: d35a6d6c-447a-4a02-b026-4be60ddddfdd
+    name: ADDRESS_LINE3
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 25005c2c-ba46-4bee-b593-3b50caf2cd08
+    name: ZIP_CODE
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: bc62f9be-2a65-466c-821a-4f28f4ed4cdf
+    name: COUNTRY
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 25df36ac-8087-4b4d-a304-979037e2b43f
+    name: COUNTRY_ISO_CODE
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+tags:
+  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
+  - $sourcesystem#name#blackforestmarkets
+propertyValues: []

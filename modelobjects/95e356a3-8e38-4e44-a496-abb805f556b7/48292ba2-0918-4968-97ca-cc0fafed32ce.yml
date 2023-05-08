@@ -1,0 +1,28 @@
+id: 48292ba2-0918-4968-97ca-cc0fafed32ce
+name: BLACKFORESTMARKETS.SALESHEAD
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: 3b6c8348-b8e4-4a30-9309-f6ba4312099f
+    name: INVOICE_NO
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: e5d1a345-26d8-48d9-8504-5b1bbb2e43b2
+    name: DELIVERY_DATE
+    dataType:
+      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+  - id: 13deeccb-be05-4f45-8f16-4f785118bcf7
+    name: DELIVERY_TIME
+    dataType:
+      platformDataTypeId: 275e6bf4-6ac0-4d35-b79f-955ece31c8d7
+  - id: 04150a72-02b0-452d-a62c-f9cd67a19003
+    name: BRANCH_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: b1c124b8-1ec5-406c-8d0c-dd1669e9d681
+    name: LOYALTYCARD_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+tags:
+  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
+  - $sourcesystem#name#blackforestmarkets
+propertyValues: []

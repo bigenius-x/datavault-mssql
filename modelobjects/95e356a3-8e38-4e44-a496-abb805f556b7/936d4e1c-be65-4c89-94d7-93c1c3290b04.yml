@@ -1,0 +1,25 @@
+id: 936d4e1c-be65-4c89-94d7-93c1c3290b04
+name: BLACKFORESTMARKETS.LOYALTYCARD
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: bf0d0f53-1d8a-45b0-86d0-0e11d8c43b80
+    name: LOYALTYCARD_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: dd47c391-d618-458f-ad34-7c4ca6a58b55
+    name: CUSTOMER_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: da6c0026-1785-4d83-a614-12bd5fa97c2a
+    name: VALID_FROM
+    dataType:
+      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+  - id: 42d077e5-ca91-4d6f-a34e-e642a29e5cce
+    name: VALID_TO
+    dataType:
+      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+tags:
+  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
+  - $sourcesystem#name#blackforestmarkets
+  - $view#id#c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7
+propertyValues: []

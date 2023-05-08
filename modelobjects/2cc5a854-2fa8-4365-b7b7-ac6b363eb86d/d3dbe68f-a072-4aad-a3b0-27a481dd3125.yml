@@ -1,0 +1,57 @@
+id: d3dbe68f-a072-4aad-a3b0-27a481dd3125
+modelObjectTypeId: 2cc5a854-2fa8-4365-b7b7-ac6b363eb86d
+name: SC_ItemCategory
+description: Item Category
+terms:
+  - id: 7dde3451-a611-49d1-ac9f-b8054f025f0e
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+  - id: 878648da-aa81-4019-bfef-746fd0c6a649
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+  - id: a4fbbd0c-3c05-4c80-84f0-706c916755de
+    name: Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isBusinessKey: true
+  - id: f9128b52-07a9-4723-b12f-4ccfc1df9b8f
+    name: Description
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+tags:
+  - $view#id#c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7
+dataflows:
+  - id: 67189b9a-8142-4bfb-93cf-ecda754a4925
+    name: Dataflow1
+    dataflowSets:
+      - id: 932295e0-177e-446b-b3d3-c6b0304ece13
+        name: Set1
+        termMappings:
+          - termId: 7dde3451-a611-49d1-ac9f-b8054f025f0e
+          - termId: 878648da-aa81-4019-bfef-746fd0c6a649
+          - termId: a4fbbd0c-3c05-4c80-84f0-706c916755de
+            expression: >-
+              9c240963-5fd4-4c95-8921-f3319c7a8517.ef27d4d5-8572-4c77-b31a-49fe2b89e76a
+          - termId: f9128b52-07a9-4723-b12f-4ccfc1df9b8f
+            expression: >-
+              9c240963-5fd4-4c95-8921-f3319c7a8517.23876114-29ff-45d1-a3c7-29e7ffa3a138
+        dataflowModelObjects:
+          - alias: s1
+            id: 9c240963-5fd4-4c95-8921-f3319c7a8517
+            sourceModelObjectId: d0b2aea0-c4e8-46b6-a9ab-7d694a7895f7
+        dataflowId: 67189b9a-8142-4bfb-93cf-ecda754a4925
+        whereExpression: Indentation = 0

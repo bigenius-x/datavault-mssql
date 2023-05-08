@@ -1,0 +1,24 @@
+id: eefc4d5d-9050-4dcd-b61a-9527f136d1ca
+name: BLACKFORESTMARKETS.COUNTRY
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: 438334e6-be8a-447f-90af-add06342cb89
+    name: COUNTRY_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 1e2deb5b-f784-4477-a33a-89da887dc780
+    name: ISO_CODE_2
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: f9924102-c300-4179-afcb-51912710ba85
+    name: COUNTRY
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: eed84b52-c8eb-4693-955c-3a48f9148043
+    name: NUMERIC_CODE
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+tags:
+  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
+  - $sourcesystem#name#blackforestmarkets
+propertyValues: []

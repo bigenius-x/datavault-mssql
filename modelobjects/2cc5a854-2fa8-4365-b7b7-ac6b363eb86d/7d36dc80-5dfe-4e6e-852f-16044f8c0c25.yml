@@ -1,0 +1,54 @@
+id: 7d36dc80-5dfe-4e6e-852f-16044f8c0c25
+modelObjectTypeId: 2cc5a854-2fa8-4365-b7b7-ac6b363eb86d
+name: SC_ItemCategory3
+terms:
+  - id: f5589f64-189a-4760-9b6d-237a3d16c89e
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+  - id: 57a51366-f968-44d9-b058-f906e55e4ae8
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+  - id: 70ea068c-c21f-4fa6-aa96-4b9d4324654a
+    name: Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+    isBusinessKey: true
+  - id: 495fdfd7-d60c-438b-bf7b-e668eb61a14b
+    name: Description
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+tags:
+  - $view#id#c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7
+dataflows:
+  - id: 98a329a5-bcf3-4e6a-ac7e-35d63e1b90f4
+    name: Dataflow1
+    dataflowSets:
+      - id: f0b5f3b4-dbef-4192-84d4-7008e8195683
+        name: sc
+        termMappings:
+          - termId: f5589f64-189a-4760-9b6d-237a3d16c89e
+          - termId: 57a51366-f968-44d9-b058-f906e55e4ae8
+          - termId: 70ea068c-c21f-4fa6-aa96-4b9d4324654a
+            expression: >-
+              e9c88212-cd1b-490f-9d73-eebdf3646e3f.cb3e2d28-1cc7-452d-9f6d-0e36bebb167b
+          - termId: 495fdfd7-d60c-438b-bf7b-e668eb61a14b
+            expression: >-
+              e9c88212-cd1b-490f-9d73-eebdf3646e3f.3758092d-547c-442a-9ac8-54493cd9708b
+        dataflowModelObjects:
+          - alias: s1
+            id: e9c88212-cd1b-490f-9d73-eebdf3646e3f
+            sourceModelObjectId: 7c6ac43d-72a7-4ae9-bfc6-86e501e6d527

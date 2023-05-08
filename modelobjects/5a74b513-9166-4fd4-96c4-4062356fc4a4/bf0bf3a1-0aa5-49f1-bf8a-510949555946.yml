@@ -1,0 +1,76 @@
+id: bf0bf3a1-0aa5-49f1-bf8a-510949555946
+name: BFM_ITEM
+description: Generated Model Object from BLACKFORESTMARKETS.ITEM
+modelObjectTypeId: 5a74b513-9166-4fd4-96c4-4062356fc4a4
+terms:
+  - id: 0a9798fc-ac9f-4b0b-a3a8-8f2ee51d044a
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+  - id: f08ef4be-8bb7-4538-a742-2410d0013a29
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+  - id: e4e50a71-2320-4818-b6d0-a4043dffea7c
+    name: ITEM_ID
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+    isBusinessKey: true
+  - id: e79f0529-b5f8-4f22-a6bd-16ed87b500e0
+    name: DESCRIPTION
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: afc220c4-2666-4d73-ba14-a19e4207b55e
+    name: BASE_UOM
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: c988f094-2b97-4e5b-ba23-2166ad3d9a8f
+    name: SALES_UOM
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: aabe93d2-9f05-4256-82c1-6bb5c0752101
+    name: SUPPLIER_ID
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+dataflows:
+  - id: 17c15e73-c684-4691-94f6-209448283a5d
+    name: Dataflow1
+    dataflowSets:
+      - id: fee63449-a2cc-4239-8dcd-2c332fd9e504
+        name: Set1
+        termMappings:
+          - termId: 0a9798fc-ac9f-4b0b-a3a8-8f2ee51d044a
+          - termId: f08ef4be-8bb7-4538-a742-2410d0013a29
+          - termId: e4e50a71-2320-4818-b6d0-a4043dffea7c
+            expression: >-
+              fb6d5e75-c007-4ed8-b01b-7a6145ea1694.67c2be12-6579-42bd-ac9f-42493d314cef
+          - termId: e79f0529-b5f8-4f22-a6bd-16ed87b500e0
+            expression: >-
+              fb6d5e75-c007-4ed8-b01b-7a6145ea1694.1470a2c0-b39b-422f-bc08-87799a770ac4
+          - termId: afc220c4-2666-4d73-ba14-a19e4207b55e
+            expression: >-
+              fb6d5e75-c007-4ed8-b01b-7a6145ea1694.9ed436e5-153d-44e6-ab3f-ade44a0ca729
+          - termId: c988f094-2b97-4e5b-ba23-2166ad3d9a8f
+            expression: >-
+              fb6d5e75-c007-4ed8-b01b-7a6145ea1694.e875d150-feee-4f94-bf3a-e6875633daaa
+          - termId: aabe93d2-9f05-4256-82c1-6bb5c0752101
+            expression: >-
+              fb6d5e75-c007-4ed8-b01b-7a6145ea1694.9b9a3942-eded-48ee-a00b-0ccb67a17d38
+        dataflowModelObjects:
+          - id: fb6d5e75-c007-4ed8-b01b-7a6145ea1694
+            sourceModelObjectId: 5fecec9d-9698-46d3-afa6-615ab4fae7f1
+            alias: s1
+tags:
+  - $view#id#c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7

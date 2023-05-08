@@ -1,0 +1,20 @@
+id: 3086b712-ee0a-4762-88bc-58a4a8a626e0
+name: BLACKFORESTMARKETS.JOBFUNCTION
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: 2f85dc97-7592-4f5c-9ef8-8c7de41816b7
+    name: JOBFUNCTION_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: aaa71e61-bc5a-4302-9446-72f659706f04
+    name: JOBFUNCTION_DE
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: d39f2f09-f00e-478f-a012-5bf601a6156c
+    name: JOBFUNCTION_EN
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+tags:
+  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
+  - $sourcesystem#name#blackforestmarkets
+propertyValues: []

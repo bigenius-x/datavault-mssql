@@ -1,0 +1,28 @@
+id: 5a894e4d-37d7-4f2c-ad34-8cd3a36572a7
+name: BLACKFORESTMARKETS.PRODUCTIONORDERLINE
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: 7cf69a62-2fbc-4d20-a93f-41bc4711cbef
+    name: PRODUCTIONORDER_ID
+    dataType:
+      platformDataTypeId: ad190237-5c2c-4a43-aa8c-3fda2081c1c6
+  - id: 8e2ebb63-c443-4550-bc7c-71d8416523f4
+    name: LINE_NO
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 81d08598-23af-487e-90cd-df4e414c5943
+    name: ITEM_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 5736ffd2-8c15-4482-a8f6-9718cb32cbbd
+    name: UOM
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 9e1b47a6-2e6f-45c3-ad56-fd28b27297ea
+    name: QTY
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+tags:
+  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
+  - $sourcesystem#name#blackforestmarkets
+propertyValues: []

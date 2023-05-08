@@ -1,0 +1,325 @@
+id: 99b4d84f-b69c-4874-a973-f61bba2d543d
+name: CRONUS International Ltd_$Customer
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: 35cfbb11-8401-45c0-8333-2fe49582e80b
+    name: timestamp
+    dataType:
+      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+  - id: 2afa5a25-3e07-47c3-b33e-687d62a858af
+    name: No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 88f6eefe-411c-4172-a1a9-e5d8d954c969
+    name: Name
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: ab2e0f60-5dcc-4610-902a-6ad4e6d2c041
+    name: Search Name
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 6331a6d4-a3a9-4e04-bc14-684b32364e59
+    name: Name 2
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 917601db-4e68-4991-a8d6-eca827f22e39
+    name: Address
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 946744b3-8fe5-4de4-9bf9-5a3ab5238040
+    name: Address 2
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: cbef1963-919e-4f13-9afd-4d80b7c7e53c
+    name: City
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 28820673-8d4f-476d-9308-40e2258d26e8
+    name: Contact
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 7fbac97b-81f7-4f2e-92e6-d18f22b895d1
+    name: Phone No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: a188aeea-47ea-45a6-a934-178ffcb387d6
+    name: Telex No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 93fb523d-b632-4a14-88ba-eb439299c6f4
+    name: Document Sending Profile
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 138a2b4f-88a2-46e2-9db6-2780fc6ac46a
+    name: Our Account No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 69808d3a-d86a-4c5d-88f2-5f3e2c6581e2
+    name: Territory Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 4c3a7e1d-950f-47c8-9347-18f096b908a1
+    name: Global Dimension 1 Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 1c7b578b-8041-4794-a5f4-05711a8cc7fd
+    name: Global Dimension 2 Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: bc0e841a-86a3-4c54-af38-ce4713c4565f
+    name: Chain Name
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: cd633082-1787-4b83-a227-7055b56de580
+    name: Budgeted Amount
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: 4fe3505e-255e-499b-bd1c-06ab4ab677f3
+    name: Credit Limit (LCY)
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: f811f381-190e-4974-99ce-3a5d996981c9
+    name: Customer Posting Group
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 05e57809-3a5b-42c9-ae62-c3f64719b1b3
+    name: Currency Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: bc41fb18-7d48-417c-a3f4-b689d0122b01
+    name: Customer Price Group
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 9f16f162-e418-4a62-87e6-292b3c05f282
+    name: Language Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 27f5a508-37c4-4f70-a892-3919e5c07625
+    name: Statistics Group
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: b595ce05-df2b-4fa3-af13-3b532212c0da
+    name: Payment Terms Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 8a2604c8-99e2-4c49-91b0-42ad08be3140
+    name: Fin_ Charge Terms Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: ab1f2b23-6955-4c8d-9139-dd0fe571df57
+    name: Salesperson Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: f348425d-5430-4a68-9246-c956e334ba4d
+    name: Shipment Method Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 23b777e1-e85a-46d1-8715-855cfec0ca6e
+    name: Shipping Agent Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: fc7dd5eb-358f-44c6-aa41-d59e1dfeb2b3
+    name: Place of Export
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 621f9377-f24d-4c1d-96fd-da1a9c952e67
+    name: Invoice Disc_ Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 120cdc9b-b259-4b47-bb07-9ceb588b0578
+    name: Customer Disc_ Group
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 5cbcc844-9116-42dc-b758-cd6d35179d8b
+    name: Country_Region Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 18ee49d8-ca7b-485b-858d-b647cde13efb
+    name: Collection Method
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: eaacf650-5940-438a-9719-4d6893869866
+    name: Amount
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: 12153e07-da3e-4de4-a4de-29ad25569146
+    name: Blocked
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 622a683f-d0fa-4f6c-bc2e-ee359e30f3f6
+    name: Invoice Copies
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 9d662ec2-5f0e-488c-9504-59de9e2a1d3b
+    name: Last Statement No_
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: c3a1f881-4b1b-4156-8528-9be6e3ecbe9e
+    name: Print Statements
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: 88ea0589-8e9d-4c64-8edf-8fcea72a65d8
+    name: Bill-to Customer No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: badaec4f-b400-4183-a221-a306b219272d
+    name: Priority
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 63030297-828b-4ace-aa9e-0c5929135084
+    name: Payment Method Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 12a004a4-8898-4f1f-94be-6999168f9985
+    name: Last Date Modified
+    dataType:
+      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+  - id: 93b2cecd-b59f-4bce-97e3-e2f1d1c1ea2b
+    name: Application Method
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 4298c172-d56b-4645-af4a-2cd9e6e613ab
+    name: Prices Including VAT
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: d47bdfb4-7ab1-4260-8908-fe615102b879
+    name: Location Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 6ec1099c-b0ce-4aec-aede-8b97e77c16a4
+    name: Fax No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: d496ce54-9592-4bcc-af7d-62e195a8eee3
+    name: Telex Answer Back
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 2e702af4-9d25-484f-82f5-39eac09e6d1f
+    name: VAT Registration No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: dc537353-3e81-42f5-863d-f9b495d801e6
+    name: Combine Shipments
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: dcc91d1b-e69e-4a2f-a563-9778da306fcc
+    name: Gen_ Bus_ Posting Group
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 0ad9400e-199b-4acb-8f9a-4f41b1d79a26
+    name: Picture
+    dataType:
+      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+  - id: e5618dab-f6bc-41a7-9f1c-862d0b953f08
+    name: GLN
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: d507610b-d784-45e1-a5e3-7367012e5796
+    name: Post Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 80e12730-4ad1-4e4f-8f1e-229edbe99c5e
+    name: County
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 0d933db2-5395-4e5d-90b5-dd14d7680333
+    name: E-Mail
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 9f90f28e-652f-4221-b7ca-e55e904f2f8f
+    name: Home Page
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: f31c7ec6-1172-44af-a5e0-97402b3719b8
+    name: Reminder Terms Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: f8593b28-2509-4fa7-a61d-305563491184
+    name: No_ Series
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: f340aafb-0b6b-4748-8a54-ac24f46dbeb9
+    name: Tax Area Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: cc641ae2-77fc-4e7a-ac76-870ba943431e
+    name: Tax Liable
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: 6032baff-c9c1-4757-9cb2-e15c5d04395f
+    name: VAT Bus_ Posting Group
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: b80f1612-f292-46d0-89d2-4a893d793398
+    name: Reserve
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 5942a228-dff6-43d3-92b2-a41bf89be8aa
+    name: Block Payment Tolerance
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: 776df6fb-074a-4094-9fd1-0ca4e6e1790c
+    name: IC Partner Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: bde0b118-21d8-449e-b6ee-9f5df6e37c74
+    name: Prepayment _
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: b4b4c4a6-0805-4b7c-90d4-c929338fc7f3
+    name: Partner Type
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 31b4eb36-0be1-4092-87eb-78ef4ba9449b
+    name: Image
+    dataType:
+      platformDataTypeId: 351f41dd-ae2a-4710-85ad-b22383e7de6b
+  - id: 30e15ef9-0d9e-4291-be8e-465313f7864f
+    name: Preferred Bank Account Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: ba3afe04-cbdd-46ff-996e-a5ab4ac34267
+    name: Cash Flow Payment Terms Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 2be4e479-a154-4ba7-a6f5-a8c6bbc77902
+    name: Primary Contact No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: fda13fc3-b2e6-4835-bebd-1e0498c45da0
+    name: Responsibility Center
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: f5a4937a-6bc3-48e1-80bb-d865f8139634
+    name: Shipping Advice
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: fb2ca34b-c076-41d9-9ebf-3391c2cc465b
+    name: Shipping Time
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 6869a4f5-fa69-432a-a10b-2708fd36d64c
+    name: Shipping Agent Service Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: d7d80b3e-c29e-4a7b-bf95-31ca290099f7
+    name: Service Zone Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 93861b5b-f0b3-4295-b081-756b4570272f
+    name: Allow Line Disc_
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: 7e197c82-a87d-4b7c-b11e-92413bbe720e
+    name: Base Calendar Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 5c01b2f6-7135-4bae-8c12-5e418e29318d
+    name: Copy Sell-to Addr_ to Qte From
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+tags:
+  - $discovery#id#3ad3974d-6687-497c-a817-7e314aab9f2d
+  - $sourcesystem#name#dynamics
+  - $view#id#c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7
+propertyValues: []

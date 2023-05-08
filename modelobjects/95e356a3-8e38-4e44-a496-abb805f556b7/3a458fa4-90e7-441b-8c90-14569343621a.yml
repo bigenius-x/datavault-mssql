@@ -1,0 +1,20 @@
+id: 3a458fa4-90e7-441b-8c90-14569343621a
+name: BLACKFORESTMARKETS.POS
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: 539950d6-2d55-4cd1-afcd-61dd3ada5831
+    name: POS_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 96d24a75-76b4-4d94-956d-8700d46db0e7
+    name: BRANCH_ID
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: e8e6e2d1-2488-42e5-8acd-e07758f2ac43
+    name: CASHBOX_NO
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+tags:
+  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
+  - $sourcesystem#name#blackforestmarkets
+propertyValues: []

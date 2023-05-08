@@ -1,0 +1,22 @@
+name: DataVault MSSQL
+description: DataVault MSSQL Example
+id: 414e96d9-5aec-461c-7a0f-08db36925815
+configuration:
+  id: biGENIUS.Implementation.Generator.Datavault.Mssql
+  version: "0.9.1"
+views:
+  - id: c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7
+    name: Datapipe View 1
+    description: Default view for data pipe.
+    type: data-pipe
+    default: true
+  - id: 080257fb-bbdb-4394-bdd8-0d12c03f7db5
+    name: Datamodel View 1
+    description: Default view for data model.
+    type: data-model
+    default: true
+sourceSystems:
+  - name: dynamics
+    description: anything
+  - name: blackforestmarkets
+    description: anything

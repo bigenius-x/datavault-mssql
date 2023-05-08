@@ -1,0 +1,644 @@
+id: 7211d0ee-4ad2-4151-bd28-53040bc84380
+modelObjectTypeId: 3b97992a-73f0-451d-871f-e587ec71a216
+name: Customer_NAV
+terms:
+  - id: 85372dc5-60ed-435f-8720-a6696d11ad88
+    name: BG_LoadTimestamp
+    description: Default term with the load timestamp
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+  - id: 72106d6a-8ff3-424f-85ea-f9c52fdee38a
+    name: Hub_HK
+    description: Identifier of a record
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 2689505b-2079-48b5-9fea-60ac633b04fe
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+  - id: 3ab877e5-8434-4742-a66e-215e07843954
+    name: BG_SourceSystem
+    description: Default term with an identifier of the source system
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      length: 255
+    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+  - id: 5d766880-16ad-471e-addd-a0c8296b2bf4
+    name: BG_ValidFromTimestamp
+    description: Default term for the technical validity or objects
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: dae67eab-4d4c-415c-b8a2-98bc6820719d
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+  - id: f083fd58-c314-4173-b484-2aeb5f6c6993
+    name: BG_RowHash
+    description: Default term that stores the computed hash value for defined attributes
+    dataType:
+      platformDataTypeId: 77e450ef-2083-4296-a00e-3da0da7ad152
+      length: 20
+    defaultTermId: 2362debf-62f0-4e46-b0eb-bd221e3961eb
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+  - id: 97aecfc3-9c51-4f5c-be17-2740cb7b0139
+    name: BG_ValidToTimestamp
+    description: Default term for the technical validity or objects
+    dataType:
+      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
+    defaultTermId: 8a0e3b61-609b-4b0b-9a14-58a7730ed12e
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+  - id: 0f4c6f05-6981-4ca2-adc0-4f7a6b2186e8
+    name: FK_Customer_No_
+    isForeignKey: true
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: dc338605-2ab0-4ecb-8a4e-0d3e1909fe4d
+    name: timestamp
+    dataType:
+      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+  - id: 1ad4fbcd-9ba6-4980-b2cf-6db6ab903cd1
+    name: Name
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 5863b09b-6393-425f-a0df-86bd5ee87de3
+    name: Search Name
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 23601d5f-fd6e-4de8-9698-45aa7b224790
+    name: Name 2
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 997aa335-4e7b-4900-bf3e-272237a18103
+    name: Address
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: f3aebecf-e09f-4129-acae-690da569f478
+    name: Address 2
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 058d84f1-86d7-4685-bd70-82bb5fc27e43
+    name: City
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 9febb49b-79c0-400f-8c7f-1d59dc613e26
+    name: Contact
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: fda135a0-6c09-42a4-b8bb-5d3746ccc0ca
+    name: Phone No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 8022a93e-b491-4652-82c0-b486180ec02e
+    name: Telex No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: d9345c58-8f2a-4ce4-a0f4-e178ecf8542e
+    name: Document Sending Profile
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: d00eadfc-b7ad-491f-8113-c67af64ce433
+    name: Our Account No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 07b63fda-5ec8-44b4-bb7b-3e917e13bfa2
+    name: Territory Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: d91c9ae6-4601-4536-bc36-1cd40b05081d
+    name: Global Dimension 1 Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: cd0eab80-f657-4c5e-a913-9a4796a7cffd
+    name: Global Dimension 2 Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: c946b8db-8c2f-48c9-b9ee-5960afc84907
+    name: Chain Name
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 9fb0b8bd-5ec0-488a-abf2-5d2a97976a94
+    name: Budgeted Amount
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: 23abe600-6903-490b-b7ad-a002fdf67ed6
+    name: Credit Limit (LCY)
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: adc70224-7f05-4955-a22c-578a4ab581e6
+    name: Customer Posting Group
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: e34c73e8-1d2d-4363-84bf-0de2247be806
+    name: Currency Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 076bc319-c72b-43fc-86ac-7caf2ce77165
+    name: Customer Price Group
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 244e1600-1f7b-49d5-84a6-c32a15b8b4c9
+    name: Language Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 47fa3810-6759-4c91-a893-3b45c658064f
+    name: Statistics Group
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 898ff630-93e9-47c9-b105-785354b93f4c
+    name: Payment Terms Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: ac47ed71-64e1-494f-a2f8-76235bbe6a31
+    name: Fin_ Charge Terms Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 9f2225a3-e899-4e09-9111-18bc9ef66fe0
+    name: Salesperson Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: eba67b5f-fba7-401d-b84c-4173ee40e956
+    name: Shipment Method Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 1f81d734-2b39-4604-aca3-8968d93ed7dd
+    name: Shipping Agent Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 202a5c24-ab44-4af3-95e7-89fe2b03020a
+    name: Place of Export
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 4d55ab6e-510f-4fc8-99c5-437b597aba24
+    name: Invoice Disc_ Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: cfe7e961-fa4d-4de3-9633-c29263d922d3
+    name: Customer Disc_ Group
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: a8b1ce9c-4cde-438d-bd1c-9d2ad9793e8f
+    name: Country_Region Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: f9824d07-bd7e-478e-ba55-8077728037d8
+    name: Collection Method
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: e3d34ab6-2ba7-4258-89ab-5ca97e06a8aa
+    name: Amount
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: 0d911cfc-424f-4e16-8d0e-e0fce13e603f
+    name: Blocked
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 706ea85a-85f7-438d-b52a-ac7cd5c64045
+    name: Invoice Copies
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 326b5d11-2985-479f-aa87-8a121bfe7cd7
+    name: Last Statement No_
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 32a31e43-26cd-4bc0-94a8-ffe2d318bb9e
+    name: Print Statements
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: 801bed96-c7c1-43b7-a2b3-bd9ee0b89586
+    name: Bill-to Customer No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: d9b9081b-8b03-4d76-ab34-2f9ccb692fca
+    name: Priority
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 47dadfe6-e47d-4358-8b23-23b930d4d7f6
+    name: Payment Method Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 0a4a1efd-22a5-4f8d-a517-463f93cef1e4
+    name: Last Date Modified
+    dataType:
+      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+  - id: ac6e12d4-881a-45ba-ae2e-dd5b822d1ae5
+    name: Application Method
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: a24dd742-390c-4daf-abac-50440a031d08
+    name: Prices Including VAT
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: 18bd16d6-1a2c-4e8d-8bdd-310cdfe93812
+    name: Location Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: b5f39438-9bc7-46de-8639-5997e0e96d72
+    name: Fax No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 70ad71b1-27c4-45d1-9255-fc5b9f21c14c
+    name: Telex Answer Back
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 91ac30f1-bdef-4e13-9c4a-2d1493f88302
+    name: VAT Registration No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 5f40ad16-d69c-4644-9320-8aa965299ef9
+    name: Combine Shipments
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: 28e5f0ad-cf48-427a-9360-ed0493cccd24
+    name: Gen_ Bus_ Posting Group
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 773d179b-7646-4876-b510-957e227bf788
+    name: Picture
+    dataType:
+      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+  - id: 05105179-6415-4425-9bb8-6dd1001d700b
+    name: GLN
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: d1c18cf4-52ea-4065-8037-b4fe05d05b84
+    name: Post Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: f3fc915d-cafe-4081-ad1b-29ff190f5cdd
+    name: County
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: a944ab2a-61f2-40d0-a460-95ad8ae4e91e
+    name: E-Mail
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: a3194e7c-1931-4810-89dc-1a93ae9f2f6c
+    name: Home Page
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 5bfc25d6-b322-4d24-9893-271b76ec1806
+    name: Reminder Terms Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 2fe01f05-269d-44cb-ac05-302d4967d9b8
+    name: No_ Series
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 20267bf2-75ab-4143-95ae-f8ad97d6c7b9
+    name: Tax Area Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: c7a8cd3c-e4e5-441b-b44a-a82265a02c4d
+    name: Tax Liable
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: bb9982c8-370a-4c17-a800-844eb41a2f5c
+    name: VAT Bus_ Posting Group
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 1187a95b-c584-4116-bb58-324b8bb74004
+    name: Reserve
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 51856885-1db9-4d54-bffe-7c424e082fea
+    name: Block Payment Tolerance
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: 3e8a23db-2b03-4797-8a88-02111863938b
+    name: IC Partner Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 502b9bb2-dc93-4413-83d3-dadf4ffc9539
+    name: Prepayment _
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: cd40c119-dee0-4658-a493-33b131f5cc02
+    name: Partner Type
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 34984627-0300-47f5-899f-95066d57d301
+    name: Image
+    dataType:
+      platformDataTypeId: 351f41dd-ae2a-4710-85ad-b22383e7de6b
+  - id: d868830c-53f9-4f5c-8bae-7c94a90e825e
+    name: Preferred Bank Account Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: b32dca69-e4aa-4354-ad63-f4c48ef278e0
+    name: Cash Flow Payment Terms Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: fea2245d-5aa5-4695-839c-863058cb4d4e
+    name: Primary Contact No_
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 865cb600-a2b9-4af8-9ea0-3c0022737b37
+    name: Responsibility Center
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 1f525508-e056-4f74-9300-2ca869e2688f
+    name: Shipping Advice
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+  - id: 83196864-826b-4cf6-b92c-138f65841ae4
+    name: Shipping Time
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 41f03af2-8cae-4f4f-bf23-0c215c58d041
+    name: Shipping Agent Service Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: cbf54f1a-43b4-432b-8a42-f3e3d578e845
+    name: Service Zone Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 2ec002ef-bcd4-4891-a0e8-a0780b0394ed
+    name: Allow Line Disc_
+    dataType:
+      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+  - id: 74484b43-dd05-4fb6-a008-d8c84aa0966f
+    name: Base Calendar Code
+    dataType:
+      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+  - id: 2b9ec26c-4341-48d3-9124-d7a84b4b6a2c
+    name: Copy Sell-to Addr_ to Qte From
+    dataType:
+      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+tags:
+  - $view#id#c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7
+relationships:
+  - id: 4b02eb4b-3af7-4fcc-ae7c-2413facbc50c
+    referencedModelObjectId: f5eb1e5b-49c8-4b03-9b38-8b108f7d774b
+    role: Customer
+    relationshipTerms:
+      - termId: 0f4c6f05-6981-4ca2-adc0-4f7a6b2186e8
+        referenceTermId: c0d6d91a-6179-4ce4-a081-fc54c24252d8
+dataflows:
+  - id: 31749456-684e-43ad-9c28-e996c5be6573
+    name: Dataflow1
+    dataflowSets:
+      - id: 7eefe3fd-414b-48a3-9194-0a5851857ce9
+        name: NAV
+        termMappings:
+          - termId: 85372dc5-60ed-435f-8720-a6696d11ad88
+          - termId: 72106d6a-8ff3-424f-85ea-f9c52fdee38a
+          - termId: 3ab877e5-8434-4742-a66e-215e07843954
+          - termId: 5d766880-16ad-471e-addd-a0c8296b2bf4
+          - termId: f083fd58-c314-4173-b484-2aeb5f6c6993
+          - termId: 97aecfc3-9c51-4f5c-be17-2740cb7b0139
+          - termId: 0f4c6f05-6981-4ca2-adc0-4f7a6b2186e8
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.7216bc2d-b75e-476b-bf70-319f242a5da8
+          - termId: dc338605-2ab0-4ecb-8a4e-0d3e1909fe4d
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.6180ea9b-ba7e-4783-93b5-a865e2740a50
+          - termId: 1ad4fbcd-9ba6-4980-b2cf-6db6ab903cd1
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.b4f1fd73-ac8e-456d-b78a-eadb46b3e72f
+          - termId: 5863b09b-6393-425f-a0df-86bd5ee87de3
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.ced22e61-3e43-446c-83c2-a01ef3b1e493
+          - termId: 23601d5f-fd6e-4de8-9698-45aa7b224790
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.a7468ed1-e9d4-4bf2-9476-ff9832ba18ec
+          - termId: 997aa335-4e7b-4900-bf3e-272237a18103
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.f6de2927-301c-4594-81c4-ef343cf21a13
+          - termId: f3aebecf-e09f-4129-acae-690da569f478
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.126cc063-ee36-40c9-baa8-e5a8d1993e96
+          - termId: 058d84f1-86d7-4685-bd70-82bb5fc27e43
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.230f2541-278c-4d77-b352-2e0b086e2681
+          - termId: 9febb49b-79c0-400f-8c7f-1d59dc613e26
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.e2371e4f-f66e-41f4-a58d-d2950fed426b
+          - termId: fda135a0-6c09-42a4-b8bb-5d3746ccc0ca
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.3728915b-64cd-45cf-9c4c-602dd9cb296b
+          - termId: 8022a93e-b491-4652-82c0-b486180ec02e
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.1831ce4e-817d-41b4-a908-cb344d421fab
+          - termId: d9345c58-8f2a-4ce4-a0f4-e178ecf8542e
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.2d117813-bcb5-4252-9fa7-e9f9e0b5e1d2
+          - termId: d00eadfc-b7ad-491f-8113-c67af64ce433
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.9c22ab58-1ddc-41fc-bb22-bfc9377c7e33
+          - termId: 07b63fda-5ec8-44b4-bb7b-3e917e13bfa2
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.558dddda-0e00-4a2b-97d1-4b38448f0a4c
+          - termId: d91c9ae6-4601-4536-bc36-1cd40b05081d
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.749fc5f4-b5f8-4860-bbec-ee09312db724
+          - termId: cd0eab80-f657-4c5e-a913-9a4796a7cffd
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.71d7ea42-8141-4247-8831-6a578efeb712
+          - termId: c946b8db-8c2f-48c9-b9ee-5960afc84907
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.9c701e8b-0a61-44f5-acfb-4909ae1eae9d
+          - termId: 9fb0b8bd-5ec0-488a-abf2-5d2a97976a94
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.813702b5-fa7f-4b47-af33-8762293aac9c
+          - termId: 23abe600-6903-490b-b7ad-a002fdf67ed6
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.27754038-a1b9-4e19-8fba-06dacb270b53
+          - termId: adc70224-7f05-4955-a22c-578a4ab581e6
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.64531461-f740-4bf9-8323-7db58ca84245
+          - termId: e34c73e8-1d2d-4363-84bf-0de2247be806
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.02e8bb8e-89fd-4c4b-a207-2a56d10a6086
+          - termId: 076bc319-c72b-43fc-86ac-7caf2ce77165
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.1224c2c0-4f72-4049-973b-6371ab312853
+          - termId: 244e1600-1f7b-49d5-84a6-c32a15b8b4c9
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.42aa66dd-2386-4650-ad32-87ebf3702f01
+          - termId: 47fa3810-6759-4c91-a893-3b45c658064f
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.da280aeb-0422-41fa-b7d9-0207f38d5b23
+          - termId: 898ff630-93e9-47c9-b105-785354b93f4c
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.1dcbd5d5-a0b4-4965-a6e1-d1459dec588e
+          - termId: ac47ed71-64e1-494f-a2f8-76235bbe6a31
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.28df5385-836f-40b7-8ab2-b029a09e4d75
+          - termId: 9f2225a3-e899-4e09-9111-18bc9ef66fe0
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.6a9bf95f-861a-4497-bd11-fbdea861c7fd
+          - termId: eba67b5f-fba7-401d-b84c-4173ee40e956
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.74eef13a-4cf0-4de6-aca6-5329ada0c3b4
+          - termId: 1f81d734-2b39-4604-aca3-8968d93ed7dd
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.b8e86422-a1de-4f03-8564-f381550fb23f
+          - termId: 202a5c24-ab44-4af3-95e7-89fe2b03020a
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.c02ccbbc-5582-49a5-a861-467612e5bfba
+          - termId: 4d55ab6e-510f-4fc8-99c5-437b597aba24
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.de84dfee-e8a1-4811-b311-320181f10cbd
+          - termId: cfe7e961-fa4d-4de3-9633-c29263d922d3
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.e9d5f2e7-0d0b-4e3a-afac-9cec5c0104c4
+          - termId: a8b1ce9c-4cde-438d-bd1c-9d2ad9793e8f
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.8dc217e5-bc8f-4237-8641-68bfc33414ec
+          - termId: f9824d07-bd7e-478e-ba55-8077728037d8
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.403f6f02-a94f-49f5-8c1b-261ac6ac88b4
+          - termId: e3d34ab6-2ba7-4258-89ab-5ca97e06a8aa
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.f4f58079-96d9-46c5-874b-f33e1844b1cf
+          - termId: 0d911cfc-424f-4e16-8d0e-e0fce13e603f
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.b699c2d5-1e5b-4760-938b-f800b476e615
+          - termId: 706ea85a-85f7-438d-b52a-ac7cd5c64045
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.55e2e9ca-e184-4bca-8d13-c297d3d850f3
+          - termId: 326b5d11-2985-479f-aa87-8a121bfe7cd7
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.e6bfbf2b-1ad8-458c-93fa-c0db94c0d94a
+          - termId: 32a31e43-26cd-4bc0-94a8-ffe2d318bb9e
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.93fd46d5-e434-452b-8e98-d1ffa50f685e
+          - termId: 801bed96-c7c1-43b7-a2b3-bd9ee0b89586
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.a416e6b7-8478-41ac-9441-2c104565fbeb
+          - termId: d9b9081b-8b03-4d76-ab34-2f9ccb692fca
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.97c7cc4a-6ebc-4526-a340-77de217e8b16
+          - termId: 47dadfe6-e47d-4358-8b23-23b930d4d7f6
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.f2c1e157-b366-4bef-9394-a5c60ebbe50f
+          - termId: 0a4a1efd-22a5-4f8d-a517-463f93cef1e4
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.22d5ad1e-4e24-419a-ba23-40fd55691a08
+          - termId: ac6e12d4-881a-45ba-ae2e-dd5b822d1ae5
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.e88405f2-7c93-4017-9aaf-5e8cfdbe0049
+          - termId: a24dd742-390c-4daf-abac-50440a031d08
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.03be3d70-760a-4c00-9c0b-ade250d236e4
+          - termId: 18bd16d6-1a2c-4e8d-8bdd-310cdfe93812
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.24042980-30d3-48bd-9a11-41013e68064f
+          - termId: b5f39438-9bc7-46de-8639-5997e0e96d72
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.52ed79f2-cce0-4db6-aede-884de57df20a
+          - termId: 70ad71b1-27c4-45d1-9255-fc5b9f21c14c
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.92699746-d82a-440d-b34d-36507b13dd47
+          - termId: 91ac30f1-bdef-4e13-9c4a-2d1493f88302
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.be6187e7-fb1f-4a10-8b66-7134d4ea3df5
+          - termId: 5f40ad16-d69c-4644-9320-8aa965299ef9
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.5ac21480-1b61-4c99-aa5d-c2f3d9457781
+          - termId: 28e5f0ad-cf48-427a-9360-ed0493cccd24
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.24cb5a55-cc33-4deb-8f94-aae5ff69507f
+          - termId: 773d179b-7646-4876-b510-957e227bf788
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.ebdfaba7-a0d5-4f38-90d4-202b1ba100dd
+          - termId: 05105179-6415-4425-9bb8-6dd1001d700b
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.382333ea-0f9f-4969-b2c8-088deaec01f7
+          - termId: d1c18cf4-52ea-4065-8037-b4fe05d05b84
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.dc845b2c-2324-4cff-9669-2b6a315ebaac
+          - termId: f3fc915d-cafe-4081-ad1b-29ff190f5cdd
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.2752c19d-d014-4fce-9cc8-a98e77eb7888
+          - termId: a944ab2a-61f2-40d0-a460-95ad8ae4e91e
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.12b9a938-e84d-4872-be21-469f6088b48f
+          - termId: a3194e7c-1931-4810-89dc-1a93ae9f2f6c
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.46fdb5f2-57da-4f11-a3d1-e560849e32a4
+          - termId: 5bfc25d6-b322-4d24-9893-271b76ec1806
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.76f90629-29a5-4382-8021-fcf2dba70e5a
+          - termId: 2fe01f05-269d-44cb-ac05-302d4967d9b8
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.2f9c0f36-550d-4383-825b-47a32a73fc8e
+          - termId: 20267bf2-75ab-4143-95ae-f8ad97d6c7b9
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.af40ea84-98b8-4377-967a-9996cf4d0136
+          - termId: c7a8cd3c-e4e5-441b-b44a-a82265a02c4d
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.e79aa2be-bcb2-435f-99fc-16fd586d3f96
+          - termId: bb9982c8-370a-4c17-a800-844eb41a2f5c
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.30f2919e-3bf5-4c35-ad83-d56fe2eedf0b
+          - termId: 1187a95b-c584-4116-bb58-324b8bb74004
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.da98b6bc-0962-4125-aa83-34417f78b68c
+          - termId: 51856885-1db9-4d54-bffe-7c424e082fea
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.f6f4dafb-d317-44c2-894a-56ae74e10002
+          - termId: 3e8a23db-2b03-4797-8a88-02111863938b
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.87e54f4f-0fa4-4f19-be37-d01d5ce29453
+          - termId: 502b9bb2-dc93-4413-83d3-dadf4ffc9539
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.2c280258-5e0c-48a8-9c93-32d30b8ad01f
+          - termId: cd40c119-dee0-4658-a493-33b131f5cc02
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.5a96c21f-945c-4905-9b8f-a180925cd95b
+          - termId: 34984627-0300-47f5-899f-95066d57d301
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.b2fe837a-6922-4acb-b7d9-8c6d9d2f0a43
+          - termId: d868830c-53f9-4f5c-8bae-7c94a90e825e
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.f54d8727-bc8c-4c52-bc1b-022c895d7909
+          - termId: b32dca69-e4aa-4354-ad63-f4c48ef278e0
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.7a575669-a5d9-40f9-bfbc-4e0b723e0d94
+          - termId: fea2245d-5aa5-4695-839c-863058cb4d4e
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.07a37895-8174-46ab-af91-9e5216912772
+          - termId: 865cb600-a2b9-4af8-9ea0-3c0022737b37
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.fbca789c-4c33-46b4-b8d7-7a47862a3a56
+          - termId: 1f525508-e056-4f74-9300-2ca869e2688f
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.0a9ac0aa-c358-43f5-967b-fca226df3f25
+          - termId: 83196864-826b-4cf6-b92c-138f65841ae4
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.be22e124-da90-4eb4-bf9a-1dea1d8facd5
+          - termId: 41f03af2-8cae-4f4f-bf23-0c215c58d041
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.c748ba92-2997-4523-b788-7815c5598e1f
+          - termId: cbf54f1a-43b4-432b-8a42-f3e3d578e845
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.1ba5f373-1b8a-49ea-998d-2d0a1057ff01
+          - termId: 2ec002ef-bcd4-4891-a0e8-a0780b0394ed
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.80262f61-013a-4b19-b47b-b3957c4b2752
+          - termId: 74484b43-dd05-4fb6-a008-d8c84aa0966f
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.da659476-65e2-4803-ad88-d8d2b7e82cd8
+          - termId: 2b9ec26c-4341-48d3-9124-d7a84b4b6a2c
+            expression: >-
+              fb47cfe3-dd35-4667-bb50-51bbaefc1066.0bb12de9-61a0-484f-bb72-0e766dd1262f
+        dataflowModelObjects:
+          - alias: s1
+            id: fb47cfe3-dd35-4667-bb50-51bbaefc1066
+            sourceModelObjectId: 476a3f53-7996-42c4-967f-c49ec143bf4b

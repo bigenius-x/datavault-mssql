@@ -1,0 +1,44 @@
+id: ab24b688-8851-456d-afe8-a5254be09431
+name: BLACKFORESTMARKETS.SALESLINE
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: b20e1b13-8654-4541-8418-3018442b95c3
+    name: INVOICE_NO
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: e14f9570-50db-4bef-b783-f838d96f53c1
+    name: LINE_NO
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: ad1e6445-256c-4d26-b82c-6a02a35c9287
+    name: ITEM_ID
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: 857462ef-2f57-4345-94e3-4f58fd9d524e
+    name: DESCRIPTION
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 361c8fd4-83de-4c91-8b25-6ec232f626ef
+    name: UOM
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 946e8f79-dabd-4814-ae15-100d4606ada9
+    name: SALES_PRICE
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: d43a00a2-a8c1-4746-bf3d-c1404a0622f8
+    name: REDUCTION
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: c6b0015c-1417-47ed-afa3-f0a6c0dee882
+    name: QUANTITY
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: 6ad385d6-7d88-4213-bb68-3f4b31f47a11
+    name: SALES_AMOUNT
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+tags:
+  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
+  - $sourcesystem#name#blackforestmarkets
+propertyValues: []

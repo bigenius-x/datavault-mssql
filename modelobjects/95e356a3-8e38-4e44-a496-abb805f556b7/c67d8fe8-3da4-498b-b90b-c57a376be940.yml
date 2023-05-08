@@ -1,0 +1,48 @@
+id: c67d8fe8-3da4-498b-b90b-c57a376be940
+name: BLACKFORESTMARKETS.CUSTOMER
+modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+terms:
+  - id: 455a12d5-28aa-4041-ada8-01171af92958
+    name: CUSTOMER_ID
+    dataType:
+      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+  - id: ceea623d-8922-41f4-9d26-f0352a81a900
+    name: CUSTOMER
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 1cc517c9-d14d-42d0-8e5e-0511415156e3
+    name: CUSTOMER_TYPE
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 1a6bb8c0-ed73-4ed8-8b90-5b1d87f5c128
+    name: CUSTOMER_SINCE
+    dataType:
+      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+  - id: 6c66095f-1280-4d47-8abf-d38e307858a2
+    name: ADDRESS_LINE1
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 6ad3114f-90b3-4d34-97a6-b80f99f28aca
+    name: ADDRESS_LINE2
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: c368e5f0-5bb7-4b61-b06b-7c5fbc7e61ae
+    name: ADDRESS_LINE3
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 4384dca0-85cf-4989-9fd8-dba498c101c7
+    name: ZIP_CODE
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: 639d0da5-e979-45cd-95e7-52b63e00be76
+    name: COUNTRY
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+  - id: ff681ada-e9d7-4a7a-8dd3-543faff0f389
+    name: COUNTRY_ISO_CODE
+    dataType:
+      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+tags:
+  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
+  - $sourcesystem#name#blackforestmarkets
+propertyValues: []
