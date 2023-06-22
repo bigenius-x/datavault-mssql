@@ -18,5 +18,7 @@ views:
 sourceSystems:
   - name: dynamics
     description: anything
+    id: fc062872-ebd8-49a7-9771-058828f26b20
   - name: blackforestmarkets
     description: anything
+    id: 41225553-9471-4504-ac6f-86325c233378

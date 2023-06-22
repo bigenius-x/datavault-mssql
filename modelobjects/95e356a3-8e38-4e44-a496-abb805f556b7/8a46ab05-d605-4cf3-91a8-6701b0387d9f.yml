@@ -512,6 +512,6 @@ terms:
       platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
 tags:
   - $discovery#id#3ad3974d-6687-497c-a817-7e314aab9f2d
-  - $sourcesystem#name#dynamics
   - $view#id#c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7
+  - $sourcesystem#id#fc062872-ebd8-49a7-9771-058828f26b20
 propertyValues: []
