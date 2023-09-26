@@ -15,70 +15,78 @@ sourceObjects:
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: BRANCH_NAME
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
   - name: MARKET_SIZE
     sourceDataType:
       name: varchar
       length: 10
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 10
   - name: LOCATION_SINCE
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: RETAIL_SPACE_M2
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: ARTICLE_NUMBER_APPROX
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: ADDRESS_LINE1
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ADDRESS_LINE2
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ADDRESS_LINE3
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ZIP_CODE
     sourceDataType:
       name: varchar
       length: 20
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 20
   - name: COUNTRY
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
   - name: COUNTRY_ISO_CODE
     sourceDataType:
       name: varchar
       length: 2
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 2
 - name: BLACKFORESTMARKETS.KITCHEN
   fullyQualifiedName: "[BLACKFORESTMARKETS].[KITCHEN]"
   objectType: *o0
@@ -87,18 +95,19 @@ sourceObjects:
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: BRANCH_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: KITCHEN
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
 - name: BLACKFORESTMARKETS.POS
   fullyQualifiedName: "[BLACKFORESTMARKETS].[POS]"
   objectType: *o0
@@ -107,17 +116,17 @@ sourceObjects:
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: BRANCH_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: CASHBOX_NO
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
 - name: BLACKFORESTMARKETS.SUPPLIER
   fullyQualifiedName: "[BLACKFORESTMARKETS].[SUPPLIER]"
   objectType: *o0
@@ -126,60 +135,68 @@ sourceObjects:
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: SUPPLIER
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: SUPPLIER_SINCE
     sourceDataType:
       name: date
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+      name: date
   - name: SUPPLIER_FOR
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ADDRESS_LINE1
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ADDRESS_LINE2
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ADDRESS_LINE3
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ZIP_CODE
     sourceDataType:
       name: varchar
       length: 20
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 20
   - name: COUNTRY
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
   - name: COUNTRY_ISO_CODE
     sourceDataType:
       name: varchar
       length: 2
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 2
 - name: BLACKFORESTMARKETS.EMPLOYEE
   fullyQualifiedName: "[BLACKFORESTMARKETS].[EMPLOYEE]"
   objectType: *o0
@@ -188,105 +205,113 @@ sourceObjects:
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: JOBFUNCTION_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: BRANCH_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: DEPARTMENT_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: IS_ACTIVE_RECORD
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: LAST_NAME
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: FIRST_NAME
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: BIRTH_DATE
     sourceDataType:
       name: date
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+      name: date
   - name: FIRST_HIRE_DATE
     sourceDataType:
       name: date
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+      name: date
   - name: HIRE_START_DATE
     sourceDataType:
       name: date
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+      name: date
   - name: HIRE_END_DATE
     sourceDataType:
       name: date
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+      name: date
   - name: INSERT_DATE
     sourceDataType:
       name: datetime2
     dataType:
-      platformDataTypeId: f136e1f5-12f2-451f-ad33-06fd581e5c41
+      name: datetime2
   - name: UPDATE_DATE
     sourceDataType:
       name: datetime2
     dataType:
-      platformDataTypeId: f136e1f5-12f2-451f-ad33-06fd581e5c41
+      name: datetime2
   - name: ADDRESS_LINE1
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ADDRESS_LINE2
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ADDRESS_LINE3
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ZIP_CODE
     sourceDataType:
       name: varchar
       length: 20
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 20
   - name: COUNTRY
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
   - name: COUNTRY_ISO_CODE
     sourceDataType:
       name: varchar
       length: 2
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 2
 - name: BLACKFORESTMARKETS.JOBFUNCTION
   fullyQualifiedName: "[BLACKFORESTMARKETS].[JOBFUNCTION]"
   objectType: *o0
@@ -295,19 +320,21 @@ sourceObjects:
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: JOBFUNCTION_DE
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
   - name: JOBFUNCTION_EN
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
 - name: BLACKFORESTMARKETS.DEPARTMENT
   fullyQualifiedName: "[BLACKFORESTMARKETS].[DEPARTMENT]"
   objectType: *o0
@@ -316,25 +343,28 @@ sourceObjects:
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: BRANCH_ID
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
   - name: DEPARTMENT_DE
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
   - name: DEPARTMENT_EN
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
 - name: BLACKFORESTMARKETS.PHONENUMBER
   fullyQualifiedName: "[BLACKFORESTMARKETS].[PHONENUMBER]"
   objectType: *o0
@@ -343,24 +373,26 @@ sourceObjects:
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: FOREIGN_KEY_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: PHONE_NUMBER_TYPE_CODE
     sourceDataType:
       name: varchar
       length: 10
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 10
   - name: PHONE_NUMBER
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
 - name: BLACKFORESTMARKETS.CUSTOMER
   fullyQualifiedName: "[BLACKFORESTMARKETS].[CUSTOMER]"
   objectType: *o0
@@ -370,60 +402,69 @@ sourceObjects:
       name: decimal
       precision: 38
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
   - name: CUSTOMER
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: CUSTOMER_TYPE
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
   - name: CUSTOMER_SINCE
     sourceDataType:
       name: date
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+      name: date
   - name: ADDRESS_LINE1
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ADDRESS_LINE2
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ADDRESS_LINE3
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: ZIP_CODE
     sourceDataType:
       name: varchar
       length: 20
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 20
   - name: COUNTRY
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
   - name: COUNTRY_ISO_CODE
     sourceDataType:
       name: varchar
       length: 2
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 2
 - name: BLACKFORESTMARKETS.CUSTOMER_DUPLICATES
   fullyQualifiedName: "[BLACKFORESTMARKETS].[CUSTOMER_DUPLICATES]"
   objectType: *o0
@@ -433,13 +474,15 @@ sourceObjects:
       name: decimal
       precision: 38
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
   - name: DUPLICATE_CUSTOMER_ID
     sourceDataType:
       name: decimal
       precision: 38
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
 - name: BLACKFORESTMARKETS.COUNTRY
   fullyQualifiedName: "[BLACKFORESTMARKETS].[COUNTRY]"
   objectType: *o0
@@ -448,24 +491,26 @@ sourceObjects:
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: ISO_CODE_2
     sourceDataType:
       name: varchar
       length: 2
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 2
   - name: COUNTRY
     sourceDataType:
       name: varchar
       length: 50
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 50
   - name: NUMERIC_CODE
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
 - name: BLACKFORESTMARKETS.ITEM
   fullyQualifiedName: "[BLACKFORESTMARKETS].[ITEM]"
   objectType: *o0
@@ -475,31 +520,35 @@ sourceObjects:
       name: decimal
       precision: 38
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
   - name: DESCRIPTION
     sourceDataType:
       name: varchar
       length: 1000
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 1000
   - name: BASE_UOM
     sourceDataType:
       name: varchar
       length: 10
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
   - name: SALES_UOM
     sourceDataType:
       name: varchar
       length: 10
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 10
   - name: SUPPLIER_ID
     sourceDataType:
       name: decimal
       precision: 38
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
 - name: BLACKFORESTMARKETS.ITEMUNITOFMEASURE
   fullyQualifiedName: "[BLACKFORESTMARKETS].[ITEMUNITOFMEASURE]"
   objectType: *o0
@@ -509,30 +558,34 @@ sourceObjects:
       name: decimal
       precision: 38
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
   - name: UOM
     sourceDataType:
       name: varchar
       length: 10
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 10
   - name: DESCRIPTION
     sourceDataType:
       name: varchar
       length: 100
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 100
   - name: BASE_UOM
     sourceDataType:
       name: varchar
       length: 10
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 10
   - name: QTY_PER_BASE_UOM
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
 - name: BLACKFORESTMARKETS.SALESTRANSACTION
   fullyQualifiedName: "[BLACKFORESTMARKETS].[SALESTRANSACTION]"
   objectType: *o0
@@ -541,77 +594,87 @@ sourceObjects:
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: ITEM_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: DESCRIPTION
     sourceDataType:
       name: varchar
       length: 1000
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 1000
   - name: UOM
     sourceDataType:
       name: varchar
       length: 10
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 10
   - name: TRANSACTION_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: TRANSACTION_LINE_NO
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: TRANSACTION_TIME
     sourceDataType:
       name: datetime2
     dataType:
-      platformDataTypeId: f136e1f5-12f2-451f-ad33-06fd581e5c41
+      name: datetime2
   - name: CASHIER_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: LOYALTYCARD_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: SALES_PRICE
     sourceDataType:
       name: decimal
       precision: 18
       scale: 2
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 18
+      scale: 2
   - name: REDUCTION
     sourceDataType:
       name: decimal
       precision: 18
       scale: 2
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 18
+      scale: 2
   - name: QUANTITY
     sourceDataType:
       name: decimal
       precision: 18
       scale: 3
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 18
+      scale: 3
   - name: SALES_AMOUNT
     sourceDataType:
       name: decimal
       precision: 18
       scale: 2
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 18
+      scale: 2
 - name: BLACKFORESTMARKETS.LOYALTYCARD
   fullyQualifiedName: "[BLACKFORESTMARKETS].[LOYALTYCARD]"
   objectType: *o0
@@ -620,22 +683,22 @@ sourceObjects:
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: CUSTOMER_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: VALID_FROM
     sourceDataType:
       name: date
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+      name: date
   - name: VALID_TO
     sourceDataType:
       name: date
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+      name: date
 - name: BLACKFORESTMARKETS.PRODUCTIONORDER
   fullyQualifiedName: "[BLACKFORESTMARKETS].[PRODUCTIONORDER]"
   objectType: *o0
@@ -644,22 +707,22 @@ sourceObjects:
     sourceDataType:
       name: bigint
     dataType:
-      platformDataTypeId: ad190237-5c2c-4a43-aa8c-3fda2081c1c6
+      name: bigint
   - name: PROD_DATE
     sourceDataType:
       name: date
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+      name: date
   - name: KITCHEN_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: EMPLOYEE_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
 - name: BLACKFORESTMARKETS.PRODUCTIONORDERLINE
   fullyQualifiedName: "[BLACKFORESTMARKETS].[PRODUCTIONORDERLINE]"
   objectType: *o0
@@ -668,30 +731,33 @@ sourceObjects:
     sourceDataType:
       name: bigint
     dataType:
-      platformDataTypeId: ad190237-5c2c-4a43-aa8c-3fda2081c1c6
+      name: bigint
   - name: LINE_NO
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: ITEM_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: UOM
     sourceDataType:
       name: varchar
       length: 10
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 10
   - name: QTY
     sourceDataType:
       name: decimal
       precision: 18
       scale: 4
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 18
+      scale: 4
 - name: BLACKFORESTMARKETS.SALESHEAD
   fullyQualifiedName: "[BLACKFORESTMARKETS].[SALESHEAD]"
   objectType: *o0
@@ -701,27 +767,28 @@ sourceObjects:
       name: varchar
       length: 1000
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 1000
   - name: DELIVERY_DATE
     sourceDataType:
       name: date
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
+      name: date
   - name: DELIVERY_TIME
     sourceDataType:
       name: time
     dataType:
-      platformDataTypeId: 275e6bf4-6ac0-4d35-b79f-955ece31c8d7
+      name: time
   - name: BRANCH_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: LOYALTYCARD_ID
     sourceDataType:
       name: int
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
 - name: BLACKFORESTMARKETS.SALESLINE
   fullyQualifiedName: "[BLACKFORESTMARKETS].[SALESLINE]"
   objectType: *o0
@@ -731,52 +798,61 @@ sourceObjects:
       name: varchar
       length: 1000
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 1000
   - name: LINE_NO
     sourceDataType:
       name: decimal
       precision: 38
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
   - name: ITEM_ID
     sourceDataType:
       name: decimal
       precision: 38
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
   - name: DESCRIPTION
     sourceDataType:
       name: varchar
       length: 1000
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 1000
   - name: UOM
     sourceDataType:
       name: varchar
       length: 10
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 10
   - name: SALES_PRICE
     sourceDataType:
       name: decimal
       precision: 18
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 18
   - name: REDUCTION
     sourceDataType:
       name: decimal
       precision: 18
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 18
   - name: QUANTITY
     sourceDataType:
       name: decimal
       precision: 18
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 18
   - name: SALES_AMOUNT
     sourceDataType:
       name: decimal
       precision: 18
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 18

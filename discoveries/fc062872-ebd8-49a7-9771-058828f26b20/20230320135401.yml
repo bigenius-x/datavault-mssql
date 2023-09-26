@@ -15,477 +15,540 @@ sourceObjects:
     sourceDataType:
       name: timestamp
     dataType:
-      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+      name: datetime2
   - name: No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Name
     sourceDataType:
       name: nvarchar
       length: 50
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 50
   - name: Search Name
     sourceDataType:
       name: nvarchar
       length: 50
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 50
   - name: Name 2
     sourceDataType:
       name: nvarchar
       length: 50
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 50
   - name: Address
     sourceDataType:
       name: nvarchar
       length: 50
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 50
   - name: Address 2
     sourceDataType:
       name: nvarchar
       length: 50
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 50
   - name: City
     sourceDataType:
       name: nvarchar
       length: 30
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 30
   - name: Contact
     sourceDataType:
       name: nvarchar
       length: 50
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 50
   - name: Phone No_
     sourceDataType:
       name: nvarchar
       length: 30
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 30
   - name: Telex No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Document Sending Profile
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Our Account No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Territory Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Global Dimension 1 Code
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Global Dimension 2 Code
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Chain Name
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Budgeted Amount
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Credit Limit (LCY)
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Customer Posting Group
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Currency Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Customer Price Group
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Language Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Statistics Group
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Payment Terms Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Fin_ Charge Terms Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Salesperson Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Shipment Method Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Shipping Agent Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Place of Export
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Invoice Disc_ Code
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Customer Disc_ Group
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Country_Region Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Collection Method
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Amount
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Blocked
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Invoice Copies
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Last Statement No_
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Print Statements
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Bill-to Customer No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Priority
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Payment Method Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Last Date Modified
     sourceDataType:
       name: datetime
     dataType:
-      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+      name: datetime
   - name: Application Method
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Prices Including VAT
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Location Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Fax No_
     sourceDataType:
       name: nvarchar
       length: 30
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 30
   - name: Telex Answer Back
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: VAT Registration No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Combine Shipments
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Gen_ Bus_ Posting Group
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Picture
     sourceDataType:
       name: image
       length: 2147483647
     dataType:
-      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+      name: datetime2
   - name: GLN
     sourceDataType:
       name: nvarchar
       length: 13
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 13
   - name: Post Code
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: County
     sourceDataType:
       name: nvarchar
       length: 30
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 30
   - name: E-Mail
     sourceDataType:
       name: nvarchar
       length: 80
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 80
   - name: Home Page
     sourceDataType:
       name: nvarchar
       length: 80
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 80
   - name: Reminder Terms Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: No_ Series
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Tax Area Code
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Tax Liable
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: VAT Bus_ Posting Group
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Reserve
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Block Payment Tolerance
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: IC Partner Code
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Prepayment _
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Partner Type
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Image
     sourceDataType:
       name: uniqueidentifier
     dataType:
-      platformDataTypeId: 351f41dd-ae2a-4710-85ad-b22383e7de6b
+      name: uniqueidentifier
   - name: Preferred Bank Account Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Cash Flow Payment Terms Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Primary Contact No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Responsibility Center
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Shipping Advice
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Shipping Time
     sourceDataType:
       name: varchar
       length: 32
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 32
   - name: Shipping Agent Service Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Service Zone Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Allow Line Disc_
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Base Calendar Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Copy Sell-to Addr_ to Qte From
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
 - name: CRONUS International Ltd_$Customer Discount Group
   fullyQualifiedName: "[dbo].[CRONUS International Ltd_$Customer Discount Group]"
   objectType: *o0
@@ -494,19 +557,21 @@ sourceObjects:
     sourceDataType:
       name: timestamp
     dataType:
-      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+      name: datetime2
   - name: Code
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Description
     sourceDataType:
       name: nvarchar
       length: 50
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 50
 - name: CRONUS International Ltd_$Item
   fullyQualifiedName: "[dbo].[CRONUS International Ltd_$Item]"
   objectType: *o0
@@ -515,795 +580,923 @@ sourceObjects:
     sourceDataType:
       name: timestamp
     dataType:
-      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+      name: datetime2
   - name: No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: No_ 2
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Description
     sourceDataType:
       name: nvarchar
       length: 50
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 50
   - name: Search Description
     sourceDataType:
       name: nvarchar
       length: 50
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 50
   - name: Description 2
     sourceDataType:
       name: nvarchar
       length: 50
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 50
   - name: Base Unit of Measure
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Price Unit Conversion
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Type
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Inventory Posting Group
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Shelf No_
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Item Disc_ Group
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Allow Invoice Disc_
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Statistics Group
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Commission Group
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Unit Price
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Price_Profit Calculation
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Profit _
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Costing Method
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Unit Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Standard Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Last Direct Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Indirect Cost _
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Cost is Adjusted
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Allow Online Adjustment
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Vendor No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Vendor Item No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Lead Time Calculation
     sourceDataType:
       name: varchar
       length: 32
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 32
   - name: Reorder Point
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Maximum Inventory
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Reorder Quantity
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Alternative Item No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Unit List Price
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Duty Due _
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Duty Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Gross Weight
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Net Weight
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Units per Parcel
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Unit Volume
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Durability
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Freight Type
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Tariff No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Duty Unit Conversion
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Country_Region Purchased Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Budget Quantity
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Budgeted Amount
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Budget Profit
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Blocked
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Last Date Modified
     sourceDataType:
       name: datetime
     dataType:
-      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+      name: datetime
   - name: Last Time Modified
     sourceDataType:
       name: datetime
     dataType:
-      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+      name: datetime
   - name: Price Includes VAT
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: VAT Bus_ Posting Gr_ (Price)
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Gen_ Prod_ Posting Group
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Picture
     sourceDataType:
       name: uniqueidentifier
     dataType:
-      platformDataTypeId: 351f41dd-ae2a-4710-85ad-b22383e7de6b
+      name: uniqueidentifier
   - name: Country_Region of Origin Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Automatic Ext_ Texts
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: No_ Series
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Tax Group Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: VAT Prod_ Posting Group
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Reserve
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Global Dimension 1 Code
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Global Dimension 2 Code
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Stockout Warning
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Prevent Negative Inventory
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Application Wksh_ User ID
     sourceDataType:
       name: nvarchar
       length: 128
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 128
   - name: Assembly Policy
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: GTIN
     sourceDataType:
       name: nvarchar
       length: 14
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 14
   - name: Default Deferral Template Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Low-Level Code
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Lot Size
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Serial Nos_
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Last Unit Cost Calc_ Date
     sourceDataType:
       name: datetime
     dataType:
-      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+      name: datetime
   - name: Rolled-up Material Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Rolled-up Capacity Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Scrap _
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Inventory Value Zero
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Discrete Order Quantity
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Minimum Order Quantity
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Maximum Order Quantity
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Safety Stock Quantity
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Order Multiple
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Safety Lead Time
     sourceDataType:
       name: varchar
       length: 32
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 32
   - name: Flushing Method
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Replenishment System
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Rounding Precision
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Sales Unit of Measure
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Purch_ Unit of Measure
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Time Bucket
     sourceDataType:
       name: varchar
       length: 32
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 32
   - name: Reordering Policy
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Include Inventory
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Manufacturing Policy
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Rescheduling Period
     sourceDataType:
       name: varchar
       length: 32
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 32
   - name: Lot Accumulation Period
     sourceDataType:
       name: varchar
       length: 32
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 32
   - name: Dampener Period
     sourceDataType:
       name: varchar
       length: 32
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 32
   - name: Dampener Quantity
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Overflow Level
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Manufacturer Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Item Category Code
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Created From Nonstock Item
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Product Group Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Service Item Group
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Item Tracking Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Lot Nos_
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Expiration Calculation
     sourceDataType:
       name: varchar
       length: 32
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      name: varchar
+      length: 32
   - name: Warehouse Class Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Special Equipment Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Put-away Template Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Put-away Unit of Measure Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Phys Invt Counting Period Code
     sourceDataType:
       name: nvarchar
       length: 10
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 10
   - name: Last Counting Period Update
     sourceDataType:
       name: datetime
     dataType:
-      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+      name: datetime
   - name: Use Cross-Docking
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Next Counting Start Date
     sourceDataType:
       name: datetime
     dataType:
-      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+      name: datetime
   - name: Next Counting End Date
     sourceDataType:
       name: datetime
     dataType:
-      platformDataTypeId: ee219fec-13ea-493e-9128-39a348ca0995
+      name: datetime
   - name: Routing No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Production BOM No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Single-Level Material Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Single-Level Capacity Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Single-Level Subcontrd_ Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Single-Level Cap_ Ovhd Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Single-Level Mfg_ Ovhd Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Overhead Rate
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Rolled-up Subcontracted Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Rolled-up Mfg_ Ovhd Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
   - name: Rolled-up Cap_ Overhead Cost
     sourceDataType:
       name: decimal
       precision: 38
       scale: 20
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      name: decimal
+      precision: 38
+      scale: 20
   - name: Order Tracking Policy
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Critical
     sourceDataType:
       name: tinyint
       precision: 3
     dataType:
-      platformDataTypeId: 7a777dd6-1617-462f-a41a-ea64dc65964e
+      name: tinyint
   - name: Common Item No_
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
 - name: CRONUS International Ltd_$Item Category
   fullyQualifiedName: "[dbo].[CRONUS International Ltd_$Item Category]"
   objectType: *o0
@@ -1312,34 +1505,37 @@ sourceObjects:
     sourceDataType:
       name: timestamp
     dataType:
-      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
+      name: datetime2
   - name: Code
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Parent Category
     sourceDataType:
       name: nvarchar
       length: 20
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 20
   - name: Description
     sourceDataType:
       name: nvarchar
       length: 50
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      name: nvarchar
+      length: 50
   - name: Indentation
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
   - name: Presentation Order
     sourceDataType:
       name: int
       precision: 10
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      name: int
