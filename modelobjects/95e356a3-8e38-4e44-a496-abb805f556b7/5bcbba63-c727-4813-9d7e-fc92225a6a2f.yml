@@ -1,29 +1,28 @@
-id: 5bcbba63-c727-4813-9d7e-fc92225a6a2f
-name: BLACKFORESTMARKETS.ITEMUNITOFMEASURE
-modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+id: '5bcbba63-c727-4813-9d7e-fc92225a6a2f'
+name: 'BLACKFORESTMARKETS.ITEMUNITOFMEASURE'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
 terms:
-  - id: 4f7fa6a5-6783-4faa-97e4-27932cf1414e
-    name: ITEM_ID
+  - id: '4f7fa6a5-6783-4faa-97e4-27932cf1414e'
+    name: 'ITEM_ID'
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
-  - id: b563b1d2-b349-44f5-904c-5866fd55b701
-    name: UOM
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+  - id: 'b563b1d2-b349-44f5-904c-5866fd55b701'
+    name: 'UOM'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: 8ce9011c-4c58-45f9-865e-a8ed745fa553
-    name: DESCRIPTION
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '8ce9011c-4c58-45f9-865e-a8ed745fa553'
+    name: 'DESCRIPTION'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: 90c74568-29b9-4b61-96af-0f669c70cb5b
-    name: BASE_UOM
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '90c74568-29b9-4b61-96af-0f669c70cb5b'
+    name: 'BASE_UOM'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: 3530c889-7cdc-4a56-bbc6-bc9ec76e5e9e
-    name: QTY_PER_BASE_UOM
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '3530c889-7cdc-4a56-bbc6-bc9ec76e5e9e'
+    name: 'QTY_PER_BASE_UOM'
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
 tags:
-  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
-  - $view#id#c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7
-  - $sourcesystem#id#41225553-9471-4504-ac6f-86325c233378
+  - '$discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43'
+  - '$sourcesystem#id#41225553-9471-4504-ac6f-86325c233378'
 propertyValues: []
