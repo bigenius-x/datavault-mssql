@@ -1,83 +1,76 @@
-id: d0b2aea0-c4e8-46b6-a9ab-7d694a7895f7
-name: NAV_Item Category
-description: Generated Model Object from CRONUS International Ltd_$Item Category
-modelObjectTypeId: 5a74b513-9166-4fd4-96c4-4062356fc4a4
+id: 'd0b2aea0-c4e8-46b6-a9ab-7d694a7895f7'
+name: 'NAV_Item Category'
+description: 'Generated Model Object from CRONUS International Ltd_$Item Category'
+modelObjectTypeId: '5a74b513-9166-4fd4-96c4-4062356fc4a4'
 terms:
-  - id: ff5ecd84-2d00-4631-a681-5f1daed0a6ad
-    name: BG_SourceSystem
-    description: Default term with an identifier of the source system
+  - id: 'ff5ecd84-2d00-4631-a681-5f1daed0a6ad'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
       length: 255
-    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
-  - id: 10619550-a284-4484-a87c-00bf6b8e489a
-    name: BG_LoadTimestamp
-    description: Default term with the load timestamp
+  - id: '10619550-a284-4484-a87c-00bf6b8e489a'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
     dataType:
-      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
-    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
-  - id: 1c722788-4ff0-467d-89cb-227c6f35982b
-    name: timestamp
+  - id: '1c722788-4ff0-467d-89cb-227c6f35982b'
+    name: 'timestamp'
     dataType:
-      platformDataTypeId: f7afc941-4327-4359-b72f-7f663b794f08
-  - id: ef27d4d5-8572-4c77-b31a-49fe2b89e76a
-    name: Code
+      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+  - id: 'ef27d4d5-8572-4c77-b31a-49fe2b89e76a'
+    name: 'Code'
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
     isBusinessKey: true
-  - id: c1407f8e-1f80-4ddc-bfe7-770e57b10688
-    name: Parent Category
+  - id: 'c1407f8e-1f80-4ddc-bfe7-770e57b10688'
+    name: 'Parent Category'
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
-  - id: 23876114-29ff-45d1-a3c7-29e7ffa3a138
-    name: Description
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: '23876114-29ff-45d1-a3c7-29e7ffa3a138'
+    name: 'Description'
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
-  - id: 999c7d7a-29b1-4a69-adf1-4088f4807169
-    name: Indentation
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: '999c7d7a-29b1-4a69-adf1-4088f4807169'
+    name: 'Indentation'
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
-  - id: 2c7b5c8f-a191-417c-adb5-1384140c5d58
-    name: Presentation Order
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+  - id: '2c7b5c8f-a191-417c-adb5-1384140c5d58'
+    name: 'Presentation Order'
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
 dataflows:
-  - id: c020e6a3-54a0-4113-82d1-905cd43146f6
-    name: Dataflow1
+  - id: 'c020e6a3-54a0-4113-82d1-905cd43146f6'
+    name: 'Dataflow1'
     dataflowSets:
-      - id: 2f2a2c28-4e4f-405b-abf7-93ed7276dbaf
-        name: Set1
+      - id: '2f2a2c28-4e4f-405b-abf7-93ed7276dbaf'
+        name: 'Set1'
         termMappings:
-          - termId: ff5ecd84-2d00-4631-a681-5f1daed0a6ad
-          - termId: 10619550-a284-4484-a87c-00bf6b8e489a
-          - termId: 1c722788-4ff0-467d-89cb-227c6f35982b
-            expression: >-
-              c08ab152-4e83-4481-b6c5-622cc1eb52de.d502faa6-9860-4321-bc1e-ec2fc16ff523
-          - termId: ef27d4d5-8572-4c77-b31a-49fe2b89e76a
-            expression: >-
-              c08ab152-4e83-4481-b6c5-622cc1eb52de.4c61118f-8840-4517-a9e4-fb137ac27a6d
-          - termId: c1407f8e-1f80-4ddc-bfe7-770e57b10688
-            expression: >-
-              c08ab152-4e83-4481-b6c5-622cc1eb52de.127c43e0-699c-46ed-92e0-de3253c7b520
-          - termId: 23876114-29ff-45d1-a3c7-29e7ffa3a138
-            expression: >-
-              c08ab152-4e83-4481-b6c5-622cc1eb52de.2fa43237-4240-4c17-b5d9-3b6442ff03a8
-          - termId: 999c7d7a-29b1-4a69-adf1-4088f4807169
-            expression: >-
-              c08ab152-4e83-4481-b6c5-622cc1eb52de.1d9c2ea9-16dd-4df2-9fb2-46b5b584e63b
-          - termId: 2c7b5c8f-a191-417c-adb5-1384140c5d58
-            expression: >-
-              c08ab152-4e83-4481-b6c5-622cc1eb52de.f833ef97-c797-4d71-b82d-b94da975d3d1
+          - termId: 'ff5ecd84-2d00-4631-a681-5f1daed0a6ad'
+          - termId: '10619550-a284-4484-a87c-00bf6b8e489a'
+          - termId: '1c722788-4ff0-467d-89cb-227c6f35982b'
+            expression: 'c08ab152-4e83-4481-b6c5-622cc1eb52de.d502faa6-9860-4321-bc1e-ec2fc16ff523'
+          - termId: 'ef27d4d5-8572-4c77-b31a-49fe2b89e76a'
+            expression: 'c08ab152-4e83-4481-b6c5-622cc1eb52de.4c61118f-8840-4517-a9e4-fb137ac27a6d'
+          - termId: 'c1407f8e-1f80-4ddc-bfe7-770e57b10688'
+            expression: 'c08ab152-4e83-4481-b6c5-622cc1eb52de.127c43e0-699c-46ed-92e0-de3253c7b520'
+          - termId: '23876114-29ff-45d1-a3c7-29e7ffa3a138'
+            expression: 'c08ab152-4e83-4481-b6c5-622cc1eb52de.2fa43237-4240-4c17-b5d9-3b6442ff03a8'
+          - termId: '999c7d7a-29b1-4a69-adf1-4088f4807169'
+            expression: 'c08ab152-4e83-4481-b6c5-622cc1eb52de.1d9c2ea9-16dd-4df2-9fb2-46b5b584e63b'
+          - termId: '2c7b5c8f-a191-417c-adb5-1384140c5d58'
+            expression: 'c08ab152-4e83-4481-b6c5-622cc1eb52de.f833ef97-c797-4d71-b82d-b94da975d3d1'
         dataflowModelObjects:
-          - id: c08ab152-4e83-4481-b6c5-622cc1eb52de
-            sourceModelObjectId: bdee78f7-5e8a-41e2-b351-1fb968622cc4
-            alias: s1
-tags:
-  - $view#id#c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7
+          - id: 'c08ab152-4e83-4481-b6c5-622cc1eb52de'
+            sourceModelObjectId: 'bdee78f7-5e8a-41e2-b351-1fb968622cc4'
+            alias: 's1'
+tags: []

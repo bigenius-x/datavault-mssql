@@ -1,83 +1,77 @@
-id: 19aa9206-aad4-4357-aa16-5c1420a7225b
-name: BFM_ITEMUNITOFMEASURE
-description: Generated Model Object from BLACKFORESTMARKETS.ITEMUNITOFMEASURE
-modelObjectTypeId: 5a74b513-9166-4fd4-96c4-4062356fc4a4
+id: '19aa9206-aad4-4357-aa16-5c1420a7225b'
+name: 'BFM_ITEMUNITOFMEASURE'
+description: 'Generated Model Object from BLACKFORESTMARKETS.ITEMUNITOFMEASURE'
+modelObjectTypeId: '5a74b513-9166-4fd4-96c4-4062356fc4a4'
 terms:
-  - id: b23bed46-5bb9-4557-8987-5becad3df9c8
-    name: BG_SourceSystem
-    description: Default term with an identifier of the source system
+  - id: 'b23bed46-5bb9-4557-8987-5becad3df9c8'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
     dataType:
-      platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
       length: 255
-    defaultTermId: c3654f1c-5c92-4200-82ef-baac15ffa0ba
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
-  - id: 2088f290-7d0e-4487-b2e7-3037330545a7
-    name: BG_LoadTimestamp
-    description: Default term with the load timestamp
+  - id: '2088f290-7d0e-4487-b2e7-3037330545a7'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
     dataType:
-      platformDataTypeId: 88718695-75e5-413d-a8e9-fa27fe064353
-    defaultTermId: 3fdfd83b-00b6-47e7-b139-9b25993626ac
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
-  - id: 209f35ae-389a-490b-b6a8-c20c373c46e8
-    name: ITEM_ID
+  - id: '209f35ae-389a-490b-b6a8-c20c373c46e8'
+    name: 'ITEM_ID'
     dataType:
-      platformDataTypeId: ea625964-ee65-4825-8d1b-87ebbd7baa31
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
     isBusinessKey: true
-  - id: 03007bb1-06fa-433a-9411-57b298bff58b
-    name: UOM
+  - id: '03007bb1-06fa-433a-9411-57b298bff58b'
+    name: 'UOM'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: 416d04cd-77f4-4f60-b988-1f4952adc690
-    name: DESCRIPTION
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '416d04cd-77f4-4f60-b988-1f4952adc690'
+    name: 'DESCRIPTION'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: 7febd284-26a8-426b-a909-c2daf3d02564
-    name: BASE_UOM
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '7febd284-26a8-426b-a909-c2daf3d02564'
+    name: 'BASE_UOM'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: b9836e98-5f7d-4dc9-83d2-58a453d6d77d
-    name: QTY_PER_BASE_UOM
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: 'b9836e98-5f7d-4dc9-83d2-58a453d6d77d'
+    name: 'QTY_PER_BASE_UOM'
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
 dataflows:
-  - id: 7381ae05-cb8e-4efc-b9cb-b7daa66a527a
-    name: Dataflow1
+  - id: '7381ae05-cb8e-4efc-b9cb-b7daa66a527a'
+    name: 'Dataflow1'
     dataflowSets:
-      - id: 5b45431c-1b99-43ef-8ed5-4c87f0c92d7b
-        name: BFM
+      - id: '5b45431c-1b99-43ef-8ed5-4c87f0c92d7b'
+        name: 'BFM'
         termMappings:
-          - termId: b23bed46-5bb9-4557-8987-5becad3df9c8
-          - termId: 2088f290-7d0e-4487-b2e7-3037330545a7
-          - termId: 209f35ae-389a-490b-b6a8-c20c373c46e8
-            expression: >-
-              e039bc25-3616-49cd-8b5e-edad3b2fa611.4f7fa6a5-6783-4faa-97e4-27932cf1414e
-          - termId: 03007bb1-06fa-433a-9411-57b298bff58b
-            expression: >-
-              e039bc25-3616-49cd-8b5e-edad3b2fa611.b563b1d2-b349-44f5-904c-5866fd55b701
-          - termId: 416d04cd-77f4-4f60-b988-1f4952adc690
-            expression: >-
-              e039bc25-3616-49cd-8b5e-edad3b2fa611.8ce9011c-4c58-45f9-865e-a8ed745fa553
-          - termId: 7febd284-26a8-426b-a909-c2daf3d02564
-            expression: >-
-              e039bc25-3616-49cd-8b5e-edad3b2fa611.90c74568-29b9-4b61-96af-0f669c70cb5b
-          - termId: b9836e98-5f7d-4dc9-83d2-58a453d6d77d
-            expression: >-
-              e039bc25-3616-49cd-8b5e-edad3b2fa611.3530c889-7cdc-4a56-bbc6-bc9ec76e5e9e
+          - termId: 'b23bed46-5bb9-4557-8987-5becad3df9c8'
+          - termId: '2088f290-7d0e-4487-b2e7-3037330545a7'
+          - termId: '209f35ae-389a-490b-b6a8-c20c373c46e8'
+            expression: 'e039bc25-3616-49cd-8b5e-edad3b2fa611.4f7fa6a5-6783-4faa-97e4-27932cf1414e'
+          - termId: '03007bb1-06fa-433a-9411-57b298bff58b'
+            expression: 'e039bc25-3616-49cd-8b5e-edad3b2fa611.b563b1d2-b349-44f5-904c-5866fd55b701'
+          - termId: '416d04cd-77f4-4f60-b988-1f4952adc690'
+            expression: 'e039bc25-3616-49cd-8b5e-edad3b2fa611.8ce9011c-4c58-45f9-865e-a8ed745fa553'
+          - termId: '7febd284-26a8-426b-a909-c2daf3d02564'
+            expression: 'e039bc25-3616-49cd-8b5e-edad3b2fa611.90c74568-29b9-4b61-96af-0f669c70cb5b'
+          - termId: 'b9836e98-5f7d-4dc9-83d2-58a453d6d77d'
+            expression: 'e039bc25-3616-49cd-8b5e-edad3b2fa611.3530c889-7cdc-4a56-bbc6-bc9ec76e5e9e'
         dataflowModelObjects:
-          - id: e039bc25-3616-49cd-8b5e-edad3b2fa611
-            sourceModelObjectId: 5bcbba63-c727-4813-9d7e-fc92225a6a2f
-            alias: s1
-        alias: bfm
-        dataflowId: 7381ae05-cb8e-4efc-b9cb-b7daa66a527a
+          - id: 'e039bc25-3616-49cd-8b5e-edad3b2fa611'
+            sourceModelObjectId: '5bcbba63-c727-4813-9d7e-fc92225a6a2f'
+            alias: 's1'
+        alias: 'bfm'
+        dataflowId: '7381ae05-cb8e-4efc-b9cb-b7daa66a527a'
 propertyValues:
-  - propertyId: 713ec758-07f0-4d05-8b91-5d3427261f76 # DeduplicationMethod #SemanticBase PorpertyCode
-    value: Partition
-  - propertyId: a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f # PartititionOrder #SemanticBase PorpertyCode
-    value: ToBeDecided
-tags:
-  - $view#id#c4c9d4dc-04ce-428d-bfdb-0445e8bdd9f7
+  - propertyId: '713ec758-07f0-4d05-8b91-5d3427261f76'
+    value: 'Partition'
+  - propertyId: 'a57fa4ce-3f1f-4542-85e0-27c0c5dc9b3f'
+    value: 'ToBeDecided'
+tags: []
