@@ -50,5 +50,4 @@ dataflows:
           - alias: 's1'
             id: '9c240963-5fd4-4c95-8921-f3319c7a8517'
             sourceModelObjectId: 'd0b2aea0-c4e8-46b6-a9ab-7d694a7895f7'
-        dataflowId: '67189b9a-8142-4bfb-93cf-ecda754a4925'
         whereExpression: 'Indentation = 0'

@@ -67,8 +67,6 @@ dataflows:
           - id: 'e039bc25-3616-49cd-8b5e-edad3b2fa611'
             sourceModelObjectId: '5bcbba63-c727-4813-9d7e-fc92225a6a2f'
             alias: 's1'
-        alias: 'bfm'
-        dataflowId: '7381ae05-cb8e-4efc-b9cb-b7daa66a527a'
 propertyValues:
   - propertyId: '713ec758-07f0-4d05-8b91-5d3427261f76'
     value: 'Partition'
