@@ -20,6 +20,7 @@ terms:
       length: 20
     defaultTermId: '681eef24-7738-4e91-852b-8c53a3197e64'
     isIdentity: true
+    isNullable: false
     isBusinessKey: false
     isForeignKey: false
     isDefaultTerm: true
