@@ -5,7 +5,8 @@ terms:
   - id: '35cfbb11-8401-45c0-8333-2fe49582e80b'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
+    propertyValues: []
   - id: '2afa5a25-3e07-47c3-b33e-687d62a858af'
     name: 'No_'
     dataType:
