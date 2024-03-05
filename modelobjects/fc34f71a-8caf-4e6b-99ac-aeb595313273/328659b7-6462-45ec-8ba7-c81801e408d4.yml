@@ -11,6 +11,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '36d9bda0-7ffa-4eed-b319-cacd76920882'
     name: 'Link_HK'
     description: 'Identifier of a record'
@@ -21,6 +22,7 @@ terms:
     isIdentity: true
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '82f04be3-fb05-4fbc-87f1-b9ca69f27b96'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -32,18 +34,21 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '093ae6cc-651d-4c54-bd7e-3b6ddd6ac6b4'
     name: 'FK_ItemCategory_Code'
     isForeignKey: true
     isBusinessKey: true
     dataType:
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
   - id: '6bb69dce-c7e7-4b3c-aed7-1edf4998bbfc'
     name: 'FK_ItemSubcategory_Code'
     isForeignKey: true
     isBusinessKey: true
     dataType:
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
 tags: []
 relationships:
   - id: '41e8056d-988d-45cb-95bf-9b4ab19364cb'

@@ -11,6 +11,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '11449361-cb26-4b26-a677-e5e9b28a0216'
     name: 'Link_HK'
     description: 'Identifier of a record'
@@ -21,6 +22,7 @@ terms:
     isIdentity: true
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '028b15f5-429b-4759-8366-3b9033e8050e'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -32,6 +34,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '5467b318-ed28-41c0-a141-3a2643bb05c5'
     name: 'FK_Item_No_'
     dataType:
@@ -39,6 +42,7 @@ terms:
     isNullable: true
     isForeignKey: true
     isBusinessKey: true
+    isBusinessKeyForeignKey: true
   - id: '519303e8-e03f-4158-bfa4-cfcdcedf2bbe'
     name: 'FK_Customer_No_'
     dataType:
@@ -46,18 +50,21 @@ terms:
     isNullable: true
     isForeignKey: true
     isBusinessKey: true
+    isBusinessKeyForeignKey: true
   - id: '7a43be56-bb32-437f-aacb-de6c33a48ba5'
     name: 'FK_ItemUOM_ITEM_ID'
     isForeignKey: true
     isBusinessKey: true
     dataType:
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isBusinessKeyForeignKey: true
   - id: '5046d200-19fe-4da5-8e68-45c0bf212813'
     name: 'FK_ItemUOM_UOM'
     isForeignKey: true
     isBusinessKey: true
     dataType:
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isBusinessKeyForeignKey: true
 tags: []
 relationships:
   - id: 'cdcb1eca-ebe4-4600-bd9e-fda929984cef'

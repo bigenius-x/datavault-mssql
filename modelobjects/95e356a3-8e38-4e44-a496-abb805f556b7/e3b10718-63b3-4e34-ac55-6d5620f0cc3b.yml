@@ -1,48 +1,48 @@
-id: e3b10718-63b3-4e34-ac55-6d5620f0cc3b
-name: BLACKFORESTMARKETS.SUPPLIER
-modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+id: 'e3b10718-63b3-4e34-ac55-6d5620f0cc3b'
+name: 'BLACKFORESTMARKETS.SUPPLIER'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
 terms:
-  - id: 4d19bbee-324b-4717-be6c-4c22c2778f2e
-    name: SUPPLIER_ID
+  - id: '4d19bbee-324b-4717-be6c-4c22c2778f2e'
+    name: 'SUPPLIER_ID'
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
-  - id: e23239c8-1820-48eb-90f7-ade09cfb8bd2
-    name: SUPPLIER
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+  - id: 'e23239c8-1820-48eb-90f7-ade09cfb8bd2'
+    name: 'SUPPLIER'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: 07dd5e7d-bea9-4c6c-94ea-cd341199816e
-    name: SUPPLIER_SINCE
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '07dd5e7d-bea9-4c6c-94ea-cd341199816e'
+    name: 'SUPPLIER_SINCE'
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
-  - id: b2efe0ba-3d56-44f2-8443-34e29bada301
-    name: SUPPLIER_FOR
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
+  - id: 'b2efe0ba-3d56-44f2-8443-34e29bada301'
+    name: 'SUPPLIER_FOR'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: b519e3c1-7782-4f33-a3b7-9bc29a1e4615
-    name: ADDRESS_LINE1
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: 'b519e3c1-7782-4f33-a3b7-9bc29a1e4615'
+    name: 'ADDRESS_LINE1'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: 97b858c4-9d8e-4efd-8aff-ebd6aa17aa30
-    name: ADDRESS_LINE2
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '97b858c4-9d8e-4efd-8aff-ebd6aa17aa30'
+    name: 'ADDRESS_LINE2'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: 443407b8-285f-4ada-beec-f12d959b29e1
-    name: ADDRESS_LINE3
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '443407b8-285f-4ada-beec-f12d959b29e1'
+    name: 'ADDRESS_LINE3'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: e3ccc730-7e39-466c-9964-1ac7fcad05e6
-    name: ZIP_CODE
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: 'e3ccc730-7e39-466c-9964-1ac7fcad05e6'
+    name: 'ZIP_CODE'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: cb3a37e0-e8c1-48b7-8c03-564f48fc9cb3
-    name: COUNTRY
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: 'cb3a37e0-e8c1-48b7-8c03-564f48fc9cb3'
+    name: 'COUNTRY'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: b7c76472-0052-4f39-ba49-8bb9c977de05
-    name: COUNTRY_ISO_CODE
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: 'b7c76472-0052-4f39-ba49-8bb9c977de05'
+    name: 'COUNTRY_ISO_CODE'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
 tags:
-  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
-  - $sourcesystem#id#41225553-9471-4504-ac6f-86325c233378
+  - '$discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43'
+  - '$sourcesystem#id#41225553-9471-4504-ac6f-86325c233378'
 propertyValues: []

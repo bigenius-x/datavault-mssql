@@ -14,6 +14,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'f08ef4be-8bb7-4538-a742-2410d0013a29'
     name: 'BG_LoadTimestamp'
     description: 'Default term with the load timestamp'
@@ -23,6 +24,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: 'e4e50a71-2320-4818-b6d0-a4043dffea7c'
     name: 'ITEM_ID'
     dataType:

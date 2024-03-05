@@ -1,24 +1,24 @@
-id: d0bb5b57-e1d0-4693-b473-95a4e3c3f922
-name: BLACKFORESTMARKETS.PRODUCTIONORDER
-modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+id: 'd0bb5b57-e1d0-4693-b473-95a4e3c3f922'
+name: 'BLACKFORESTMARKETS.PRODUCTIONORDER'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
 terms:
-  - id: 6acdd4d7-d70d-4715-9bdf-acfddf8c504d
-    name: PRODUCTIONORDER_ID
+  - id: '6acdd4d7-d70d-4715-9bdf-acfddf8c504d'
+    name: 'PRODUCTIONORDER_ID'
     dataType:
-      platformDataTypeId: ad190237-5c2c-4a43-aa8c-3fda2081c1c6
-  - id: e818e231-d5cd-4ad6-b72c-7fd9e00610ca
-    name: PROD_DATE
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+  - id: 'e818e231-d5cd-4ad6-b72c-7fd9e00610ca'
+    name: 'PROD_DATE'
     dataType:
-      platformDataTypeId: 4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9
-  - id: 45774e31-e8fc-4909-bed9-93c28dcb701f
-    name: KITCHEN_ID
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
+  - id: '45774e31-e8fc-4909-bed9-93c28dcb701f'
+    name: 'KITCHEN_ID'
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
-  - id: 3c013527-fd06-4c1e-8cc2-009b1a81735e
-    name: EMPLOYEE_ID
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+  - id: '3c013527-fd06-4c1e-8cc2-009b1a81735e'
+    name: 'EMPLOYEE_ID'
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
 tags:
-  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
-  - $sourcesystem#id#41225553-9471-4504-ac6f-86325c233378
+  - '$discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43'
+  - '$sourcesystem#id#41225553-9471-4504-ac6f-86325c233378'
 propertyValues: []

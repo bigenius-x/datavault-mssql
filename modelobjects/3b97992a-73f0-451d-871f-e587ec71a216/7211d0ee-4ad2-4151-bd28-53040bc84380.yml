@@ -11,6 +11,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '72106d6a-8ff3-424f-85ea-f9c52fdee38a'
     name: 'Hub_HK'
     description: 'Identifier of a record'
@@ -21,6 +22,7 @@ terms:
     isIdentity: true
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '3ab877e5-8434-4742-a66e-215e07843954'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -32,6 +34,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '5d766880-16ad-471e-addd-a0c8296b2bf4'
     name: 'BG_ValidFromTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -41,6 +44,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: 'f083fd58-c314-4173-b484-2aeb5f6c6993'
     name: 'BG_RowHash'
     description: 'Default term that stores the computed hash value for defined attributes'
@@ -52,6 +56,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '97aecfc3-9c51-4f5c-be17-2740cb7b0139'
     name: 'BG_ValidToTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -62,15 +67,18 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '0f4c6f05-6981-4ca2-adc0-4f7a6b2186e8'
     name: 'FK_Customer_No_'
     isForeignKey: true
     dataType:
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
   - id: 'dc338605-2ab0-4ecb-8a4e-0d3e1909fe4d'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
+    propertyValues: []
   - id: '1ad4fbcd-9ba6-4980-b2cf-6db6ab903cd1'
     name: 'Name'
     dataType:
@@ -270,7 +278,8 @@ terms:
   - id: '773d179b-7646-4876-b510-957e227bf788'
     name: 'Picture'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: '836defb7-f4e4-4130-97c4-afec95a59be8'
+    propertyValues: []
   - id: '05105179-6415-4425-9bb8-6dd1001d700b'
     name: 'GLN'
     dataType:

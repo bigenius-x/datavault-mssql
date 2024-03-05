@@ -14,6 +14,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '345f3ca9-49bc-45ff-a3e8-3ba41cdc39f7'
     name: 'BG_LoadTimestamp'
     description: 'Default term with the load timestamp'
@@ -23,10 +24,12 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '6180ea9b-ba7e-4783-93b5-a865e2740a50'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
+    propertyValues: []
   - id: '7216bc2d-b75e-476b-bf70-319f242a5da8'
     name: 'No_'
     dataType:
@@ -231,7 +234,8 @@ terms:
   - id: 'ebdfaba7-a0d5-4f38-90d4-202b1ba100dd'
     name: 'Picture'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: '836defb7-f4e4-4130-97c4-afec95a59be8'
+    propertyValues: []
   - id: '382333ea-0f9f-4969-b2c8-088deaec01f7'
     name: 'GLN'
     dataType:

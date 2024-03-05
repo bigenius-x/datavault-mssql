@@ -14,6 +14,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'ca44c898-58b8-4d33-a423-e2472d109dd5'
     name: 'BG_LoadTimestamp'
     description: 'Default term with the load timestamp'
@@ -23,10 +24,12 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '0d1ad573-133e-4275-93a8-dc471b7a6f7a'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
+    propertyValues: []
   - id: '5c322bad-e686-4cc8-af3c-47f168bff7ff'
     name: 'No_'
     dataType:

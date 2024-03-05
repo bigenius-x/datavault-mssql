@@ -11,6 +11,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: 'a084b29d-3ffa-4478-8e0a-ee0fa40f5f4d'
     name: 'Hub_HK'
     description: 'Identifier of a record'
@@ -21,6 +22,7 @@ terms:
     isIdentity: true
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: 'c3a74dca-590d-4f11-bfd1-9432df5a6c4a'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -32,6 +34,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'c0d6d91a-6179-4ce4-a081-fc54c24252d8'
     name: 'No_'
     dataType:

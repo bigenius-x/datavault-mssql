@@ -14,6 +14,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'd9db82e3-eab5-4196-a05a-c9a9ca13789a'
     name: 'BG_LoadTimestamp'
     description: 'Default term with the load timestamp'
@@ -23,6 +24,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '4c2b9cda-4852-47e9-938c-b4c544997687'
     name: 'LOYALTYCARD_ID'
     dataType:
