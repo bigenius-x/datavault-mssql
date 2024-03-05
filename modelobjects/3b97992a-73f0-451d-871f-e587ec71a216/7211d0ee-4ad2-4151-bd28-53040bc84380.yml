@@ -77,7 +77,8 @@ terms:
   - id: 'dc338605-2ab0-4ecb-8a4e-0d3e1909fe4d'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
+    propertyValues: []
   - id: '1ad4fbcd-9ba6-4980-b2cf-6db6ab903cd1'
     name: 'Name'
     dataType:
