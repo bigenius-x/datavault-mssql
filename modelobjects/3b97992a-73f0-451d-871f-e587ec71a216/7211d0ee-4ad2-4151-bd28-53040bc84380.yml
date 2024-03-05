@@ -278,7 +278,8 @@ terms:
   - id: '773d179b-7646-4876-b510-957e227bf788'
     name: 'Picture'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: '836defb7-f4e4-4130-97c4-afec95a59be8'
+    propertyValues: []
   - id: '05105179-6415-4425-9bb8-6dd1001d700b'
     name: 'GLN'
     dataType:
