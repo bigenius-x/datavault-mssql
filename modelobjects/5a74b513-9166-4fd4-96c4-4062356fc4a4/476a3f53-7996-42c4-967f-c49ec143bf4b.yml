@@ -234,7 +234,8 @@ terms:
   - id: 'ebdfaba7-a0d5-4f38-90d4-202b1ba100dd'
     name: 'Picture'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: '836defb7-f4e4-4130-97c4-afec95a59be8'
+    propertyValues: []
   - id: '382333ea-0f9f-4969-b2c8-088deaec01f7'
     name: 'GLN'
     dataType:
