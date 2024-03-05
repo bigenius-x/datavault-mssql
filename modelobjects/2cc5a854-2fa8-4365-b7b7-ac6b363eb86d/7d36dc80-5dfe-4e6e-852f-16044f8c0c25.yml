@@ -11,6 +11,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '57a51366-f968-44d9-b058-f906e55e4ae8'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -22,6 +23,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '70ea068c-c21f-4fa6-aa96-4b9d4324654a'
     name: 'Code'
     dataType:

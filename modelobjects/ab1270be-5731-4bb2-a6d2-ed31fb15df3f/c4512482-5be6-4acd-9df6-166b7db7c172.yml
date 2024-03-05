@@ -11,6 +11,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: '671a2670-4a74-4c0f-92a2-4d13a23cf056'
     name: 'Link_HK'
     description: 'Identifier of a record'
@@ -21,6 +22,7 @@ terms:
     isIdentity: true
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: 'f4badd12-4f24-4908-9dd8-43b8ab28bc29'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
@@ -32,6 +34,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: 'e93139ee-7202-48ee-a516-f9d4f5ff3d67'
     name: 'BG_ValidFromTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -41,6 +44,7 @@ terms:
     isIdentity: false
     isBusinessKey: false
     isForeignKey: false
+    isDefaultTerm: true
   - id: 'd3599713-2a10-4673-988d-0de76263bfc8'
     name: 'BG_RowHash'
     description: 'Default term that stores the computed hash value for defined attributes'
@@ -52,6 +56,7 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '55c3fe70-580f-4a1a-8135-fd9089229884'
     name: 'BG_ValidToTimestamp'
     description: 'Default term for the technical validity or objects'
@@ -62,28 +67,33 @@ terms:
     isBusinessKey: false
     isForeignKey: false
     isNullable: true
+    isDefaultTerm: true
   - id: '5a9d1ac9-c0c1-46c1-b671-f4d79d31f04e'
     name: 'FK_Sales_FK_Item_No_'
     isForeignKey: true
     isNullable: true
     dataType:
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
   - id: 'c416a1f3-aa09-4557-8a80-4864eef4ec51'
     name: 'FK_Sales_FK_Customer_No_'
     isForeignKey: true
     isNullable: true
     dataType:
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isBusinessKeyForeignKey: true
   - id: '7fa26b33-420d-4157-a6c5-29f4fe5bf695'
     name: 'FK_Sales_FK_ItemUOM_ITEM_ID'
     isForeignKey: true
     dataType:
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isBusinessKeyForeignKey: true
   - id: 'e2edb1e3-7ffe-4e02-8ac6-bebf68baf1d5'
     name: 'FK_Sales_FK_ItemUOM_UOM'
     isForeignKey: true
     dataType:
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isBusinessKeyForeignKey: true
   - id: '8daaaa48-0aff-4f34-9a8a-03891010f9b3'
     name: 'SALES_PRICE'
     dataType:
