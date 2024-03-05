@@ -1,24 +1,24 @@
-id: a76d4683-a789-4812-b166-bade95e8276c
-name: BLACKFORESTMARKETS.DEPARTMENT
-modelObjectTypeId: 95e356a3-8e38-4e44-a496-abb805f556b7
+id: 'a76d4683-a789-4812-b166-bade95e8276c'
+name: 'BLACKFORESTMARKETS.DEPARTMENT'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
 terms:
-  - id: a6e7e9fe-bb55-4b4b-a610-c27ba0ceb0a9
-    name: DEPARTMENT_ID
+  - id: 'a6e7e9fe-bb55-4b4b-a610-c27ba0ceb0a9'
+    name: 'DEPARTMENT_ID'
     dataType:
-      platformDataTypeId: 9d8d167b-ffbb-4498-8721-de74c859dad5
-  - id: 3fd494f0-a25e-4bd9-9139-6b0e9ba21076
-    name: BRANCH_ID
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+  - id: '3fd494f0-a25e-4bd9-9139-6b0e9ba21076'
+    name: 'BRANCH_ID'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: 6c814b73-3868-4c84-8406-0e76d8c74307
-    name: DEPARTMENT_DE
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '6c814b73-3868-4c84-8406-0e76d8c74307'
+    name: 'DEPARTMENT_DE'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
-  - id: a12208a0-71b3-440e-acd7-b42d5d1d0dc8
-    name: DEPARTMENT_EN
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: 'a12208a0-71b3-440e-acd7-b42d5d1d0dc8'
+    name: 'DEPARTMENT_EN'
     dataType:
-      platformDataTypeId: 9245c3e9-05f8-4e48-962c-e1b3c49bc239
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
 tags:
-  - $discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43
-  - $sourcesystem#id#41225553-9471-4504-ac6f-86325c233378
+  - '$discovery#id#f7af4db4-5454-4960-81ab-72aa647b9f43'
+  - '$sourcesystem#id#41225553-9471-4504-ac6f-86325c233378'
 propertyValues: []
