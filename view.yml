@@ -35,7 +35,6 @@ views:
       - id: '328659b7-6462-45ec-8ba7-c81801e408d4'
       - id: '5de6948d-1c93-4613-a718-9e1537a904e7'
       - id: 'ddb83d57-c6dc-4a55-8374-298d5b014076'
-      - id: 'ec1b2dc5-0fb2-4096-bf00-009bb7ada341'
   - id: '080257fb-bbdb-4394-bdd8-0d12c03f7db5'
     name: 'Datamodel View 1'
     type: 'data-model'
