@@ -28,7 +28,8 @@ terms:
   - id: '6180ea9b-ba7e-4783-93b5-a865e2740a50'
     name: 'timestamp'
     dataType:
-      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
+    propertyValues: []
   - id: '7216bc2d-b75e-476b-bf70-319f242a5da8'
     name: 'No_'
     dataType:
