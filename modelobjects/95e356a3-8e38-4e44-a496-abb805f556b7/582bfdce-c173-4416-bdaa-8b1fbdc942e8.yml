@@ -15,6 +15,7 @@ terms:
     dataType:
       platformDataTypeId: bdf6e2aa-9167-4949-9f69-735bbf516472
 tags:
-  - $discovery#id#3ad3974d-6687-497c-a817-7e314aab9f2d
-  - $sourcesystem#id#fc062872-ebd8-49a7-9771-058828f26b20
+  - '$discovery#id#3ad3974d-6687-497c-a817-7e314aab9f2d'
+  - '$sourcesystem#id#fc062872-ebd8-49a7-9771-058828f26b20'
+  - '$initial#name#CRONUS International Ltd_$Customer Discount Group'
 propertyValues: []
