@@ -3,7 +3,7 @@ description: 'DataVault MSSQL Example'
 id: '414e96d9-5aec-461c-7a0f-08db36925815'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Datavault.Mssql'
-  version: '1.5.0-rc00'
+  version: '1.5.0-rc01'
 sourceSystems:
   - name: 'dynamics'
     description: 'anything'
