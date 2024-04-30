@@ -34,18 +34,26 @@ terms:
     name: 'UOM'
     dataType:
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
   - id: '416d04cd-77f4-4f60-b988-1f4952adc690'
     name: 'DESCRIPTION'
     dataType:
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
   - id: '7febd284-26a8-426b-a909-c2daf3d02564'
     name: 'BASE_UOM'
     dataType:
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
+    isBusinessKey: false
   - id: 'b9836e98-5f7d-4dc9-83d2-58a453d6d77d'
     name: 'QTY_PER_BASE_UOM'
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
 dataflows:
   - id: '7381ae05-cb8e-4efc-b9cb-b7daa66a527a'
     name: 'Dataflow1'
