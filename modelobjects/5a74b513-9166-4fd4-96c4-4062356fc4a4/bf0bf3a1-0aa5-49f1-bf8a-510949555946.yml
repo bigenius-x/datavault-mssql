@@ -34,18 +34,22 @@ terms:
     name: 'DESCRIPTION'
     dataType:
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
   - id: 'afc220c4-2666-4d73-ba14-a19e4207b55e'
     name: 'BASE_UOM'
     dataType:
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
   - id: 'c988f094-2b97-4e5b-ba23-2166ad3d9a8f'
     name: 'SALES_UOM'
     dataType:
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+    isIdentity: false
   - id: 'aabe93d2-9f05-4256-82c1-6bb5c0752101'
     name: 'SUPPLIER_ID'
     dataType:
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+    isIdentity: false
 dataflows:
   - id: '17c15e73-c684-4691-94f6-209448283a5d'
     name: 'Dataflow1'
