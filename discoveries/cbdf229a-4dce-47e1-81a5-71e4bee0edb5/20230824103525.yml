@@ -1,0 +1,882 @@
+id: '8b609b52-8c82-44b7-9cc1-18bc0fab9762'
+name: 'BLACKFORESTMARKETS'
+description: 'Full Export'
+timestamp: '2023-08-24T10:35:25+00:00'
+sourceSystem:
+  type: 'Microsoft Sql Server'
+  version: '2017'
+sourceObjects:
+  - name: 'BRANCH'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[BRANCH]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'BRANCH_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'BRANCH_NAME'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+      - name: 'MARKET_SIZE'
+        sourceDataType:
+          name: 'varchar'
+          length: 10
+        dataType:
+          name: 'varchar'
+          length: 10
+      - name: 'LOCATION_SINCE'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'RETAIL_SPACE_M2'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'ARTICLE_NUMBER_APPROX'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'ADDRESS_LINE1'
+        sourceDataType:
+          name: 'varchar'
+          length: 200
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ADDRESS_LINE2'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ADDRESS_LINE3'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ZIP_CODE'
+        sourceDataType:
+          name: 'varchar'
+          length: 20
+        dataType:
+          name: 'varchar'
+          length: 20
+      - name: 'COUNTRY'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+      - name: 'COUNTRY_ISO_CODE'
+        sourceDataType:
+          name: 'varchar'
+          length: 2
+        dataType:
+          name: 'varchar'
+          length: 2
+  - name: 'KITCHEN'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[KITCHEN]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'KITCHEN_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'BRANCH_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'KITCHEN'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+  - name: 'POS'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[POS]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'POS_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'BRANCH_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'CASHBOX_NO'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+  - name: 'SUPPLIER'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[SUPPLIER]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'SUPPLIER_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'SUPPLIER'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'SUPPLIER_SINCE'
+        sourceDataType:
+          name: 'date'
+        dataType:
+          name: 'date'
+      - name: 'SUPPLIER_FOR'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ADDRESS_LINE1'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ADDRESS_LINE2'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ADDRESS_LINE3'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ZIP_CODE'
+        sourceDataType:
+          name: 'varchar'
+          length: 20
+        dataType:
+          name: 'varchar'
+          length: 20
+      - name: 'COUNTRY'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+      - name: 'COUNTRY_ISO_CODE'
+        sourceDataType:
+          name: 'varchar'
+          length: 2
+        dataType:
+          name: 'varchar'
+          length: 2
+  - name: 'EMPLOYEE'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[EMPLOYEE]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'EMPLOYEE_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'JOBFUNCTION_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'BRANCH_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'DEPARTMENT_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'IS_ACTIVE_RECORD'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'LAST_NAME'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'FIRST_NAME'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'BIRTH_DATE'
+        sourceDataType:
+          name: 'date'
+        dataType:
+          name: 'date'
+      - name: 'FIRST_HIRE_DATE'
+        sourceDataType:
+          name: 'date'
+        dataType:
+          name: 'date'
+      - name: 'HIRE_START_DATE'
+        sourceDataType:
+          name: 'date'
+        dataType:
+          name: 'date'
+      - name: 'HIRE_END_DATE'
+        sourceDataType:
+          name: 'date'
+        dataType:
+          name: 'date'
+      - name: 'INSERT_DATE'
+        sourceDataType:
+          name: 'datetime2'
+        dataType:
+          name: 'datetime2'
+      - name: 'UPDATE_DATE'
+        sourceDataType:
+          name: 'datetime2'
+        dataType:
+          name: 'datetime2'
+      - name: 'ADDRESS_LINE1'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ADDRESS_LINE2'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ADDRESS_LINE3'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ZIP_CODE'
+        sourceDataType:
+          name: 'varchar'
+          length: 20
+        dataType:
+          name: 'varchar'
+          length: 20
+      - name: 'COUNTRY'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+      - name: 'COUNTRY_ISO_CODE'
+        sourceDataType:
+          name: 'varchar'
+          length: 2
+        dataType:
+          name: 'varchar'
+          length: 2
+      - name: 'MANAGER_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+  - name: 'JOBFUNCTION'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[JOBFUNCTION]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'JOBFUNCTION_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'JOBFUNCTION_DE'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+      - name: 'JOBFUNCTION_EN'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+  - name: 'DEPARTMENT'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[DEPARTMENT]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'DEPARTMENT_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'BRANCH_ID'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+      - name: 'DEPARTMENT_DE'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+      - name: 'DEPARTMENT_EN'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+  - name: 'PHONENUMBER'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[PHONENUMBER]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'PHONENUMBER_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'FOREIGN_KEY_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'PHONE_NUMBER_TYPE_CODE'
+        sourceDataType:
+          name: 'varchar'
+          length: 10
+        dataType:
+          name: 'varchar'
+          length: 10
+      - name: 'PHONE_NUMBER'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+  - name: 'CUSTOMER'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[CUSTOMER]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'CUSTOMER_ID'
+        sourceDataType:
+          name: 'decimal'
+          precision: 38
+        dataType:
+          name: 'decimal'
+          precision: 38
+      - name: 'CUSTOMER'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'CUSTOMER_TYPE'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'CUSTOMER_SINCE'
+        sourceDataType:
+          name: 'date'
+        dataType:
+          name: 'date'
+      - name: 'ADDRESS_LINE1'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ADDRESS_LINE2'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ADDRESS_LINE3'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'ZIP_CODE'
+        sourceDataType:
+          name: 'varchar'
+          length: 20
+        dataType:
+          name: 'varchar'
+          length: 20
+      - name: 'COUNTRY'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+      - name: 'COUNTRY_ISO_CODE'
+        sourceDataType:
+          name: 'varchar'
+          length: 2
+        dataType:
+          name: 'varchar'
+          length: 2
+  - name: 'CUSTOMER_DUPLICATES'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[CUSTOMER_DUPLICATES]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'CUSTOMER_ID'
+        sourceDataType:
+          name: 'decimal'
+          precision: 38
+        dataType:
+          name: 'decimal'
+          precision: 38
+      - name: 'DUPLICATE_CUSTOMER_ID'
+        sourceDataType:
+          name: 'decimal'
+          precision: 38
+        dataType:
+          name: 'decimal'
+          precision: 38
+  - name: 'COUNTRY'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[COUNTRY]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'COUNTRY_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'ISO_CODE_2'
+        sourceDataType:
+          name: 'varchar'
+          length: 2
+        dataType:
+          name: 'varchar'
+          length: 2
+      - name: 'COUNTRY'
+        sourceDataType:
+          name: 'varchar'
+          length: 50
+        dataType:
+          name: 'varchar'
+          length: 50
+      - name: 'NUMERIC_CODE'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+  - name: 'ITEM'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[ITEM]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'ITEM_ID'
+        sourceDataType:
+          name: 'decimal'
+          precision: 38
+        dataType:
+          name: 'decimal'
+          precision: 38
+      - name: 'DESCRIPTION'
+        sourceDataType:
+          name: 'varchar'
+          length: 1000
+        dataType:
+          name: 'varchar'
+          length: 1000
+      - name: 'BASE_UOM'
+        sourceDataType:
+          name: 'varchar'
+          length: 10
+        dataType:
+          name: 'varchar'
+          length: 10
+      - name: 'SALES_UOM'
+        sourceDataType:
+          name: 'varchar'
+          length: 10
+        dataType:
+          name: 'varchar'
+          length: 10
+      - name: 'SUPPLIER_ID'
+        sourceDataType:
+          name: 'decimal'
+          precision: 38
+        dataType:
+          name: 'decimal'
+          precision: 38
+  - name: 'ITEMUNITOFMEASURE'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[ITEMUNITOFMEASURE]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'ITEM_ID'
+        sourceDataType:
+          name: 'decimal'
+          precision: 38
+        dataType:
+          name: 'decimal'
+          precision: 38
+      - name: 'UOM'
+        sourceDataType:
+          name: 'varchar'
+          length: 10
+        dataType:
+          name: 'varchar'
+          length: 10
+      - name: 'DESCRIPTION'
+        sourceDataType:
+          name: 'varchar'
+          length: 100
+        dataType:
+          name: 'varchar'
+          length: 100
+      - name: 'BASE_UOM'
+        sourceDataType:
+          name: 'varchar'
+          length: 10
+        dataType:
+          name: 'varchar'
+          length: 10
+      - name: 'QTY_PER_BASE_UOM'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+  - name: 'SALESTRANSACTION'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[SALESTRANSACTION]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'POS_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'ITEM_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'DESCRIPTION'
+        sourceDataType:
+          name: 'varchar'
+          length: 1000
+        dataType:
+          name: 'varchar'
+          length: 1000
+      - name: 'UOM'
+        sourceDataType:
+          name: 'varchar'
+          length: 10
+        dataType:
+          name: 'varchar'
+          length: 10
+      - name: 'TRANSACTION_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'TRANSACTION_LINE_NO'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'TRANSACTION_TIME'
+        sourceDataType:
+          name: 'datetime2'
+        dataType:
+          name: 'datetime2'
+      - name: 'CASHIER_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'LOYALTYCARD_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'SALES_PRICE'
+        sourceDataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+      - name: 'REDUCTION'
+        sourceDataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+      - name: 'QUANTITY'
+        sourceDataType:
+          name: 'decimal'
+          precision: 18
+          scale: 3
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 3
+      - name: 'SALES_AMOUNT'
+        sourceDataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+  - name: 'LOYALTYCARD'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[LOYALTYCARD]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'LOYALTYCARD_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'CUSTOMER_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'VALID_FROM'
+        sourceDataType:
+          name: 'date'
+        dataType:
+          name: 'date'
+      - name: 'VALID_TO'
+        sourceDataType:
+          name: 'date'
+        dataType:
+          name: 'date'
+  - name: 'PRODUCTIONORDER'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[PRODUCTIONORDER]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'PRODUCTIONORDER_ID'
+        sourceDataType:
+          name: 'bigint'
+        dataType:
+          name: 'bigint'
+      - name: 'PROD_DATE'
+        sourceDataType:
+          name: 'date'
+        dataType:
+          name: 'date'
+      - name: 'KITCHEN_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'EMPLOYEE_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+  - name: 'PRODUCTIONORDERLINE'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[PRODUCTIONORDERLINE]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'PRODUCTIONORDER_ID'
+        sourceDataType:
+          name: 'bigint'
+        dataType:
+          name: 'bigint'
+      - name: 'LINE_NO'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'ITEM_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'UOM'
+        sourceDataType:
+          name: 'varchar'
+          length: 10
+        dataType:
+          name: 'varchar'
+          length: 10
+      - name: 'QTY'
+        sourceDataType:
+          name: 'decimal'
+          precision: 18
+          scale: 4
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 4
+  - name: 'SALESHEAD'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[SALESHEAD]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'INVOICE_NO'
+        sourceDataType:
+          name: 'varchar'
+          length: 1000
+        dataType:
+          name: 'varchar'
+          length: 1000
+      - name: 'DELIVERY_DATE'
+        sourceDataType:
+          name: 'date'
+        dataType:
+          name: 'date'
+      - name: 'DELIVERY_TIME'
+        sourceDataType:
+          name: 'time'
+        dataType:
+          name: 'time'
+      - name: 'BRANCH_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+      - name: 'LOYALTYCARD_ID'
+        sourceDataType:
+          name: 'int'
+        dataType:
+          name: 'int'
+  - name: 'SALESLINE'
+    fullyQualifiedName: '[BLACKFORESTMARKETS].[SALESLINE]'
+    objectType:
+      name: 'table'
+    terms:
+      - name: 'INVOICE_NO'
+        sourceDataType:
+          name: 'varchar'
+          length: 1000
+        dataType:
+          name: 'varchar'
+          length: 1000
+      - name: 'LINE_NO'
+        sourceDataType:
+          name: 'decimal'
+          precision: 38
+        dataType:
+          name: 'decimal'
+          precision: 38
+      - name: 'ITEM_ID'
+        sourceDataType:
+          name: 'decimal'
+          precision: 38
+        dataType:
+          name: 'decimal'
+          precision: 38
+      - name: 'DESCRIPTION'
+        sourceDataType:
+          name: 'varchar'
+          length: 1000
+        dataType:
+          name: 'varchar'
+          length: 1000
+      - name: 'UOM'
+        sourceDataType:
+          name: 'varchar'
+          length: 10
+        dataType:
+          name: 'varchar'
+          length: 10
+      - name: 'SALES_PRICE'
+        sourceDataType:
+          name: 'decimal'
+          precision: 18
+        dataType:
+          name: 'decimal'
+          precision: 18
+      - name: 'REDUCTION'
+        sourceDataType:
+          name: 'decimal'
+          precision: 18
+        dataType:
+          name: 'decimal'
+          precision: 18
+      - name: 'QUANTITY'
+        sourceDataType:
+          name: 'decimal'
+          precision: 18
+        dataType:
+          name: 'decimal'
+          precision: 18
+      - name: 'SALES_AMOUNT'
+        sourceDataType:
+          name: 'decimal'
+          precision: 18
+        dataType:
+          name: 'decimal'
+          precision: 18
