@@ -1,106 +1,106 @@
 id: 'a71fa396-9d21-49e5-9b23-5e1deb0b3c6e'
-modelObjectTypeId: '902acc49-9ed4-4b92-8371-4224059e1387'
 name: 'Customer_Current'
+modelObjectTypeId: '902acc49-9ed4-4b92-8371-4224059e1387'
 terms:
   - id: '2d122bb9-e066-4e94-bc93-686496d7d2fa'
     name: 'CUSTOMER_ID'
-    dataType:
-      precision: 38
-      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
-    isIdentity: false
+    hiddenInSource: false
+    hiddenInTarget: false
     isBusinessKey: true
     isForeignKey: false
+    isIdentity: false
     isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
   - id: '37c36af6-7dbe-4cf1-81b4-147dd62d485b'
     name: 'Hub_HK'
-    dataType:
-      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
-      length: 20
     description: 'Identifier of a record'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 20
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
   - id: 'e2c7d667-d974-41d4-97d9-f5f681992496'
     name: 'CUSTOMER'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
     dataType:
       length: 100
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '56c11b57-f5fd-41b7-9b80-d4a4a329f6b1'
     name: 'CUSTOMER_TYPE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
     dataType:
       length: 100
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '5c325443-9426-49f8-8d44-ed1561c5e0e6'
     name: 'CUSTOMER_SINCE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
     dataType:
       platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: 'a042ffb3-dcfb-4f1e-821f-b2af370c1c0e'
     name: 'ADDRESS_LINE1'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
     dataType:
       length: 100
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: 'e358d7d8-ea84-45ba-9186-6626247adb77'
     name: 'ADDRESS_LINE2'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
     dataType:
       length: 100
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: 'ee2a551a-f1c3-4c58-a6fc-6de97b64a355'
     name: 'ADDRESS_LINE3'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
     dataType:
       length: 100
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '72a9338b-6eed-428f-93fc-12099ab76399'
     name: 'ZIP_CODE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
     dataType:
       length: 20
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
 dataflows:
   - id: 'bdf1585b-b20c-402a-af2a-008c7f1f16ec'
     name: 'Dataflow1'
@@ -108,37 +108,37 @@ dataflows:
       - id: 'a4aaf066-7d36-4179-a19f-deb046bf9927'
         name: 'Set1'
         dataflowModelObjects:
-          - alias: 's1'
-            id: '5bf6989d-2e4c-4516-94d8-883fce3ab8f8'
+          - id: '5bf6989d-2e4c-4516-94d8-883fce3ab8f8'
+            alias: 's1'
             sourceModelObjectId: '0d0e6612-10b2-441e-b8cf-ea87a4882ff1'
-          - alias: 's2'
+          - id: '9f47f91a-15da-4413-9432-107a8a047ad8'
+            alias: 's2'
             joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
-            id: '9f47f91a-15da-4413-9432-107a8a047ad8'
             sourceModelObjectId: '8086099c-763c-4ad6-842d-a2706d351d2e'
-          - alias: 's3'
+          - id: 'f0d14e9b-31ab-4846-999a-1d495ddd4969'
+            alias: 's3'
             joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
-            id: 'f0d14e9b-31ab-4846-999a-1d495ddd4969'
             sourceModelObjectId: 'a3c1fc21-50c9-470e-b20e-5584fb7fb85f'
-          - alias: 's4'
+          - id: 'd21ff735-666d-4d47-8073-dacc81b7a7a9'
+            alias: 's4'
             joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
-            id: 'd21ff735-666d-4d47-8073-dacc81b7a7a9'
             sourceModelObjectId: '18b9541c-c60b-41bf-ac6d-8f3c4d0c3ba4'
         termMappings:
-          - termId: '2d122bb9-e066-4e94-bc93-686496d7d2fa'
-            expression: '5bf6989d-2e4c-4516-94d8-883fce3ab8f8.bb036979-7bb7-4a13-ae9a-ad819610a2f9'
-          - termId: '37c36af6-7dbe-4cf1-81b4-147dd62d485b'
-            expression: '5bf6989d-2e4c-4516-94d8-883fce3ab8f8.efc06393-6904-441e-84d0-8b30cc53de7b'
-          - termId: 'e2c7d667-d974-41d4-97d9-f5f681992496'
-            expression: 'f0d14e9b-31ab-4846-999a-1d495ddd4969.cab86054-a430-4ea9-8a2e-6553505005ad'
-          - termId: '56c11b57-f5fd-41b7-9b80-d4a4a329f6b1'
-            expression: 'f0d14e9b-31ab-4846-999a-1d495ddd4969.b449ab41-4e77-421a-8b19-faedddac616a'
-          - termId: '5c325443-9426-49f8-8d44-ed1561c5e0e6'
-            expression: 'f0d14e9b-31ab-4846-999a-1d495ddd4969.548e92e7-93d4-4ad8-b020-9a7e0ee89bf8'
-          - termId: 'a042ffb3-dcfb-4f1e-821f-b2af370c1c0e'
-            expression: 'd21ff735-666d-4d47-8073-dacc81b7a7a9.baa43af4-4f78-49c6-a862-6fee4d1ab6d5'
-          - termId: 'e358d7d8-ea84-45ba-9186-6626247adb77'
-            expression: 'd21ff735-666d-4d47-8073-dacc81b7a7a9.c4685c9f-32f3-44e6-a96b-0e5d563c1f5a'
-          - termId: 'ee2a551a-f1c3-4c58-a6fc-6de97b64a355'
-            expression: 'd21ff735-666d-4d47-8073-dacc81b7a7a9.deaec2be-3710-4b8d-951e-9c150483480e'
-          - termId: '72a9338b-6eed-428f-93fc-12099ab76399'
-            expression: 'd21ff735-666d-4d47-8073-dacc81b7a7a9.ff23072d-9685-443e-a72e-228234d8c6c9'
+          - expression: '5bf6989d-2e4c-4516-94d8-883fce3ab8f8.bb036979-7bb7-4a13-ae9a-ad819610a2f9'
+            termId: '2d122bb9-e066-4e94-bc93-686496d7d2fa'
+          - expression: '5bf6989d-2e4c-4516-94d8-883fce3ab8f8.efc06393-6904-441e-84d0-8b30cc53de7b'
+            termId: '37c36af6-7dbe-4cf1-81b4-147dd62d485b'
+          - expression: 'f0d14e9b-31ab-4846-999a-1d495ddd4969.cab86054-a430-4ea9-8a2e-6553505005ad'
+            termId: 'e2c7d667-d974-41d4-97d9-f5f681992496'
+          - expression: 'f0d14e9b-31ab-4846-999a-1d495ddd4969.b449ab41-4e77-421a-8b19-faedddac616a'
+            termId: '56c11b57-f5fd-41b7-9b80-d4a4a329f6b1'
+          - expression: 'f0d14e9b-31ab-4846-999a-1d495ddd4969.548e92e7-93d4-4ad8-b020-9a7e0ee89bf8'
+            termId: '5c325443-9426-49f8-8d44-ed1561c5e0e6'
+          - expression: 'd21ff735-666d-4d47-8073-dacc81b7a7a9.baa43af4-4f78-49c6-a862-6fee4d1ab6d5'
+            termId: 'a042ffb3-dcfb-4f1e-821f-b2af370c1c0e'
+          - expression: 'd21ff735-666d-4d47-8073-dacc81b7a7a9.c4685c9f-32f3-44e6-a96b-0e5d563c1f5a'
+            termId: 'e358d7d8-ea84-45ba-9186-6626247adb77'
+          - expression: 'd21ff735-666d-4d47-8073-dacc81b7a7a9.deaec2be-3710-4b8d-951e-9c150483480e'
+            termId: 'ee2a551a-f1c3-4c58-a6fc-6de97b64a355'
+          - expression: 'd21ff735-666d-4d47-8073-dacc81b7a7a9.ff23072d-9685-443e-a72e-228234d8c6c9'
+            termId: '72a9338b-6eed-428f-93fc-12099ab76399'

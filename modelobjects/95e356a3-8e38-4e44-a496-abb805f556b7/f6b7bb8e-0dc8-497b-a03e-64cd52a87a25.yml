@@ -4,28 +4,28 @@ modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
 terms:
   - id: '1430d1ee-58ae-4f6b-8a29-6f1834874d52'
     name: 'CUSTOMER_ID'
-    dataType:
-      precision: 38
-      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
   - id: 'f59370de-b75b-4c2e-b108-a9f158fa04fe'
     name: 'DUPLICATE_CUSTOMER_ID'
-    dataType:
-      precision: 38
-      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
+propertyValues: []
 tags:
   - '$discovery#id#8b609b52-8c82-44b7-9cc1-18bc0fab9762'
-  - '$sourcesystem#id#cbdf229a-4dce-47e1-81a5-71e4bee0edb5'
   - '$initial#name#customer_duplicates'
-propertyValues: []
+  - '$sourcesystem#id#cbdf229a-4dce-47e1-81a5-71e4bee0edb5'
