@@ -100,6 +100,20 @@ terms:
     isNullable: true
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+  - id: '4df0cfca-b075-4290-99c9-9a413617f054'
+    name: 'BG_DataflowSetName'
+    description: 'Default term for incremental load'
+    defaultTermId: '3024ca99-e262-4d16-962f-23fb03943dee'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 255
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
 dataflows:
   - id: 'f899c852-c8d0-411f-9f2f-7a50eab7dd2f'
     name: 'Dataflow1'
@@ -122,3 +136,4 @@ dataflows:
             termId: '05859fe5-e8b8-4257-a80e-57671d3d4de3'
           - expression: '731d8c16-b560-4533-9ce6-a8b2ab06d31f.cf4edb2a-cab0-4a92-b568-74ea1370645f'
             termId: 'de070447-16e9-438e-a8ef-b44e7b115f07'
+          - termId: '4df0cfca-b075-4290-99c9-9a413617f054'
