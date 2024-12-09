@@ -6,165 +6,165 @@ terms:
   - id: 'aa3fcd8a-4d81-4d82-ba7c-7eb4205ae1fd'
     name: 'BG_LoadTimestamp'
     description: 'Default term with the load timestamp'
-    dataType:
-      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
     defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
-    isDefaultTerm: true
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
   - id: '1e59fc0c-6c41-4af0-9b3d-36c81ddd4d88'
     name: 'Hub_HK'
     description: 'Identifier of a record'
-    dataType:
-      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
-      length: 20
     defaultTermId: '2689505b-2079-48b5-9fea-60ac633b04fe'
-    isDefaultTerm: true
-    isIdentity: true
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      length: 20
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
   - id: '506bfd1b-3778-4752-a195-e07ef1f767c9'
     name: 'BG_ValidFromTimestamp'
     description: 'Default term for the technical validity or objects'
-    dataType:
-      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
     defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
-    isDefaultTerm: true
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
   - id: '87b501c8-6454-4dd1-8464-a5561bff394a'
     name: 'BG_ValidToTimestamp'
     description: 'Default term for the technical validity or objects'
-    dataType:
-      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
     defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
-    isDefaultTerm: true
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
     hiddenInSource: false
     hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
   - id: 'd935e71a-82a5-493d-a0b4-48112bf03f37'
     name: 'BG_RowHash'
     description: 'Default term that stores the computed hash value for defined attributes'
-    dataType:
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-      length: 20
     defaultTermId: '2362debf-62f0-4e46-b0eb-bd221e3961eb'
-    isDefaultTerm: true
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
     hiddenInSource: false
     hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 20
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: 'c2dbc476-3533-4f78-bf13-e46df9dab075'
     name: 'BG_Sequence'
     description: 'Sequence number, part of the primary key'
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
     defaultTermId: '84f9d0b8-a653-4594-82bc-d0a0f214bb60'
-    isDefaultTerm: true
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
   - id: 'c790172e-57ad-411d-8ef1-360cbdf03d02'
     name: 'BG_MAS_HubDifferenceFound'
     description: 'Sequence number, part of the primary key'
-    dataType:
-      platformDataTypeId: '836defb7-f4e4-4130-97c4-afec95a59be8'
     defaultTermId: '514cd557-c0e0-4d78-a56a-4279364ad0e5'
-    isDefaultTerm: true
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
     hiddenInSource: true
     hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '836defb7-f4e4-4130-97c4-afec95a59be8'
   - id: '9d4b8425-6e30-41ea-b448-91c205ec5253'
     name: 'BG_SourceSystem'
     description: 'Default term with an identifier of the source system'
-    dataType:
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-      length: 255
     defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
-    isDefaultTerm: true
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 255
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: 'adf7a6a6-313e-45b3-bebd-da122f77c20b'
     name: 'FK_CUSTOMER_CUSTOMER_Hub_CUSTOMER_ID'
-    dataType:
-      precision: 38
-      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: true
-    isBusinessKeyForeignKey: true
-    isNullable: true
     hiddenInSource: true
     hiddenInTarget: false
+    isBusinessKey: false
+    isBusinessKeyForeignKey: true
+    isForeignKey: true
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
   - id: '640a7e63-81e3-4206-a74f-b0f9c0cd1ea7'
     name: 'PHONE_NUMBER'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
     dataType:
       length: 50
       platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: true
-    hiddenInSource: false
-    hiddenInTarget: false
 dataflows:
   - id: '63ee60b1-0702-4be7-bd0e-2ef3a864025c'
     name: 'Dataflow1'
     dataflowSets:
       - id: '7f341396-dddc-4fff-a837-276b2dcb400d'
         name: 'Set1'
+        whereExpression: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64.8b031b87-9900-4708-90bc-7c0572ec4925 = ''CUST'''
+        dataflowModelObjects:
+          - id: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64'
+            alias: 's1'
+            sourceModelObjectId: '968dc600-689d-4c2a-82b9-bcdf64661f51'
         termMappings:
           - termId: 'aa3fcd8a-4d81-4d82-ba7c-7eb4205ae1fd'
           - termId: '1e59fc0c-6c41-4af0-9b3d-36c81ddd4d88'
           - termId: '506bfd1b-3778-4752-a195-e07ef1f767c9'
           - termId: '87b501c8-6454-4dd1-8464-a5561bff394a'
           - termId: 'd935e71a-82a5-493d-a0b4-48112bf03f37'
-          - termId: 'c2dbc476-3533-4f78-bf13-e46df9dab075'
-            expression: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64.50577794-5506-4ed8-830d-ddfc85ce459d'
+          - expression: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64.50577794-5506-4ed8-830d-ddfc85ce459d'
+            termId: 'c2dbc476-3533-4f78-bf13-e46df9dab075'
           - termId: 'c790172e-57ad-411d-8ef1-360cbdf03d02'
           - termId: '9d4b8425-6e30-41ea-b448-91c205ec5253'
-          - termId: 'adf7a6a6-313e-45b3-bebd-da122f77c20b'
-            expression: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64.3a952155-2c32-493e-9a50-7fc0e57bb382'
-          - termId: '640a7e63-81e3-4206-a74f-b0f9c0cd1ea7'
-            expression: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64.90b5e193-789e-4c55-b28a-948ee3b37f0e'
-        dataflowModelObjects:
-          - id: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64'
-            sourceModelObjectId: '968dc600-689d-4c2a-82b9-bcdf64661f51'
-            alias: 's1'
-        whereExpression: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64.8b031b87-9900-4708-90bc-7c0572ec4925 = ''CUST'''
+          - expression: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64.3a952155-2c32-493e-9a50-7fc0e57bb382'
+            termId: 'adf7a6a6-313e-45b3-bebd-da122f77c20b'
+          - expression: 'c25dc6e4-9af2-481b-8f5d-1d53abc04b64.90b5e193-789e-4c55-b28a-948ee3b37f0e'
+            termId: '640a7e63-81e3-4206-a74f-b0f9c0cd1ea7'
         propertyValues: []
 relationships:
   - id: '546abb98-8de5-4b6a-acc8-2d078dda6be7'
     referencedModelObjectId: '0d0e6612-10b2-441e-b8cf-ea87a4882ff1'
     role: 'CUSTOMER_Hub'
-    relationshipTerms:
-      - termId: 'adf7a6a6-313e-45b3-bebd-da122f77c20b'
-        referenceTermId: 'bb036979-7bb7-4a13-ae9a-ad819610a2f9'
     additionalTermIds: []
+    relationshipTerms:
+      - referenceTermId: 'bb036979-7bb7-4a13-ae9a-ad819610a2f9'
+        termId: 'adf7a6a6-313e-45b3-bebd-da122f77c20b'
     propertyValues: []

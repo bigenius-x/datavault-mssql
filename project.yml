@@ -1,6 +1,7 @@
+id: '414e96d9-5aec-461c-7a0f-08db36925815'
 name: 'DataVault MSSQL'
 description: 'DataVault MSSQL Example'
-id: '414e96d9-5aec-461c-7a0f-08db36925815'
+version: 'v1.5'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Datavault.Mssql'
   version: '1.6.1'
@@ -8,7 +9,6 @@ sourceSystems:
   - id: 'cbdf229a-4dce-47e1-81a5-71e4bee0edb5'
     name: 'Blackforest Markets'
     description: 'Retail Chain'
-    sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
     activeDiscovery: '8b609b52-8c82-44b7-9cc1-18bc0fab9762'
-version: 'v1.4'
+    sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
 propertyValues: []
