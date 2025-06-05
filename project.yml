@@ -1,5 +1,5 @@
 id: '414e96d9-5aec-461c-7a0f-08db36925815'
-name: 'DataVault MSSQL'
+name: 'DataVault MSSQ'
 description: 'DataVault MSSQL Example'
 version: 'v1.5'
 configuration:
